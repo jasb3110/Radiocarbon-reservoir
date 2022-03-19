@@ -1,3 +1,3 @@
-# Radiocarbon reservoir off Peru and Chile during lats 12 Kys BP
+# Radiocarbon reservoir off Peru and Chile during last 12 Kys BP
 Preview of outcome about estimation 
 this work still have progress.....
