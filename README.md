@@ -1,3 +1,3 @@
-# Radiocarbon-reservoir-off-Peru-and-Chile
+# Radiocarbon reservoir off Peru and Chile
 Preview of outcome about estimation 
 in progress
