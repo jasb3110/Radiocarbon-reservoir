@@ -1,3 +1,14 @@
 # Radiocarbon reservoir off Peru and Chile during last 12 Kys BP
-Preview of outcome about estimation 
-this work still have progress.....
+
+##Introduction 
+
+##Materials and methods 
+
+##Principal outcomes
+
+##Discussion 
+
+#Conclusions
+
+#references
+
