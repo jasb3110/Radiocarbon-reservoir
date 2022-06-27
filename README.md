@@ -1,14 +1,14 @@
 # Radiocarbon reservoir off Peru and Chile during last 12 Kys BP
 
-##Introduction 
+## Introduction 
 
-##Materials and methods 
+## Materials and methods 
 
-##Principal outcomes
+## Principal outcomes
 
-##Discussion 
+## Discussion 
 
-#Conclusions
+# Conclusions
 
-#references
+# References
 
