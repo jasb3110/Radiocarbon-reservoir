@@ -5,7 +5,19 @@ It is well-known as specific biogeochesmistry conditions regional effect on carb
 
 ## Materials and methods
 
-In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc).
+In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
+
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/b2066d3fabacddd2a407abb9eab3cf86b30d2b84/input%20data%20set1.png?raw=true)
+
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/b2066d3fabacddd2a407abb9eab3cf86b30d2b84/input%20data%20set2.png?raw=true)
+
+```markdown
+################################################################################
+#to start
+setwd("~/covid19/")#directory
+require("janitor")# package should have installed
+
+
 
 ## Principal outcomes
 
