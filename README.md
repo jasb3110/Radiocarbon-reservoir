@@ -5,7 +5,7 @@ It is well-known as specific biogeochesmistry conditions regional effect on carb
 
 ## Materials and methods
 
-In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I had found out several previously estimations. I merged 181 pairs (Marine and terrestrial samples).   
+In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc).
 
 ## Principal outcomes
 
