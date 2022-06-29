@@ -37,7 +37,7 @@ boxes $/Delta$R estimated under Marine20
 
 
 ## Discussion 
-
+![alt text](
 
 
 ## Conclusions
@@ -931,8 +931,7 @@ ggsave("reservoir3.png", dpi = 900,   width = 275,
        
 library("gifski")
 png_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)[15:17]
-togif=c(png_files[[15]],png_files[[16]],png_files[[17]])
-gifski::gifski(png_files, gif_file = "animation.gif")
+gifski::gifski(png_files,width = 275,height = 175,delay = 5, gif_file = "animation.gif")
 ################################################################################
 ```
 
