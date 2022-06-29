@@ -936,7 +936,7 @@ reservoir3=ggplot(data =toplot)+
 ggsave("reservoir3.png", dpi = 900,   width = 275,
        height = 175,unit="mm",plot =reservoir3)
        
-library("gifski")
+library("gifski")# to create animation GIF format.
 png_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)[15:17]
 gifski::gifski(png_files = png_files,width = 275*900*0.0393701,height =175*900*0.0393701,delay =3, gif_file = "animation.gif")
 ################################################################################
