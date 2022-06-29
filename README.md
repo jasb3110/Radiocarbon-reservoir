@@ -15,7 +15,7 @@ In this work is trying to estimate local radiocarbon reservoir effect off ($\Del
 
 I used a "Bchron package" for estimate marine age and terrestrial each pair according to Marine20 and Shcal20. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After, I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. 
 
-I sorted of new data (without repeated data) for space variables (latitude and longitude), calibrated age (maximum probability age and Uncertainty of maximum probability age) and  $\Delta$R (estimated $\Delta$R and uncertainty of $\Delta$R).
+I sorted of new data (without repeated data) for space variables (latitude and longitude), calibrated age (maximum probability age and Uncertainty of maximum probability age) and $\Delta$ R (estimated value and its uncertainty).
 
 
 ## Principal outcomes
