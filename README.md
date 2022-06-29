@@ -35,7 +35,7 @@ ellipses
 heat map
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.heat.map.png?raw=true)
 
-boxes $/Delta$R estimated under Marine20
+boxes $/Delta$ R estimated under Marine20
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)
 
