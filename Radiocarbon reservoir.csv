@@ -1,0 +1,363 @@
+Latitude;Longitude;pairs;calibrate curve;type of material;Convencial age;SD convencial age;reference;obs;period time
+-33.0409;-71.6087;1;marine;perumytilus purpuratus;580;25;Merino-Campos et al. 2019;post-bomb;CWP
+-33.0409;-71.6087;1;terrestrial;colleted date;-1.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-33.0409;-71.6087;2;marine;fisurella cumingi;580;20;Merino-Campos et al. 2019;reliable date;CWP
+-33.0409;-71.6087;2;terrestrial;colleted date;2.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-33.0409;-71.6087;3;marine;scurria lacerata;730;20;Merino-Campos et al. 2019;reliable date;CWP
+-33.0409;-71.6087;3;terrestrial;colleted date;2.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-34.6418;-72.0432;4;marine;scurria zebrina;550;30;Merino-Campos et al. 2019;reliable date;CWP
+-34.6418;-72.0432;4;terrestrial;colleted date;1.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-36.626;-73.0619;5;marine;diplodonta inconspicua;690;25;Merino-Campos et al. 2019;post-bomb;CWP
+-36.626;-73.0619;5;terrestrial;colleted date;-3.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-36.626;-73.0619;6;marine;Diplodonta inconspicua;675;30;Merino-Campos et al. 2019;reliable date;CWP
+-36.626;-73.0619;6;terrestrial;colleted date;7.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-36.626;-73.0619;7;marine;Scurria lacerata;640;25;Merino-Campos et al. 2019;reliable date;CWP
+-36.626;-73.0619;7;terrestrial;colleted date;7.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-33.6414;-78.8411;8;marine;Arca sp.;490;30;Merino-Campos et al. 2019;reliable date;CWP
+-33.6414;-78.8411;8;terrestrial;colleted date;48.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-36.7364;-72.9936;9;marine;ensis macha;675;25;Merino-Campos et al. 2019;reliable date;CWP
+-36.7364;-72.9936;9;terrestrial;colleted date;62.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-36.7364;-72.9936;10;marine;ensis macha;625;30;Merino-Campos et al. 2019;reliable date;CWP
+-36.7364;-72.9936;10;terrestrial;colleted date;62.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-36.7395;-73.1577;11;marine;gary solida;645;30;Merino-Campos et al. 2019;reliable date;CWP
+-36.7395;-73.1577;11;terrestrial;colleted date;62.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.4754;-72.9465;12;marine;Ensis macha;665;30;Merino-Campos et al. 2019;reliable date;CWP
+-41.4754;-72.9465;12;terrestrial;colleted date;44.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.4754;-72.9465;13;marine;Tagelus dombeii;565;30;Merino-Campos et al. 2019;reliable date;CWP
+-41.4754;-72.9465;13;terrestrial;colleted date;44.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;14;marine;Crepidula sp.;640;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;14;terrestrial;colleted date;4.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;15;marine;Ensis macha;605;30;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;15;terrestrial;colleted date;2.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;16;marine;Gary solida;570;30;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;16;terrestrial;colleted date;4.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;17;marine;Ostrea chilensis;550;25;Merino-Campos et al. 2019;post-bomb;CWP
+-41.8596;-73.8216;17;terrestrial;colleted date;-4.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-41.8596;-73.8216;18;marine;Ostrea chilensis;605;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;18;terrestrial;colleted date;3.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;19;marine;Ostrea chilensis;650;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;19;terrestrial;colleted date;75.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;20;marine;Ostrea cumingi;625;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;20;terrestrial;colleted date;103.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;21;marine;Tagelus dombeii;525;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.8596;-73.8216;21;terrestrial;colleted date;2.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-41.9141;-73.7548;22;marine;Perumytilus purpuratus;585;25;Merino-Campos et al. 2019;reliable date;CWP
+-41.9141;-73.7548;22;terrestrial;colleted date;4.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-42.3812;-73.6477;23;marine;Tagelus dombeii;535;30;Merino-Campos et al. 2019;post-bomb;CWP
+-42.3812;-73.6477;23;terrestrial;colleted date;-4.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-42.4796;-73.76;24;marine;Purpura xanthostoma;640;25;Merino-Campos et al. 2019;reliable date;CWP
+-42.4796;-73.76;24;terrestrial;colleted date;61.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-42.3812;-73.6477;25;marine;Tagelus dombeii;535;30;Merino-Campos et al. 2019;post-bomb;CWP
+-42.3812;-73.6477;25;terrestrial;colleted date;-4.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-52.1265;-73.4964;26;marine;Nacella clypeater;505;20;Merino-Campos et al. 2019;reliable date;CWP
+-52.1265;-73.4964;26;terrestrial;colleted date;1.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-53.181;-70.9223;27;marine;Petricola rugosa;510;25;Merino-Campos et al. 2019;reliable date;CWP
+-53.181;-70.9223;27;terrestrial;colleted date;0.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-53.2912;-70.4507;28;marine;Nacella nica;495;20;Merino-Campos et al. 2019;reliable date;CWP
+-53.2912;-70.4507;28;terrestrial;colleted date;2.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-53.1587;-70.9064;29;marine;Fisurella cumingi;475;20;Merino-Campos et al. 2019;post-bomb;CWP
+-53.1587;-70.9064;29;terrestrial;colleted date;-1.5;0.25;Merino-Campos et al. 2019;post-bomb;CWP
+-53.6127;-70.9559;30;marine;Fisurella cumingi;505;20;Merino-Campos et al. 2019;reliable date;CWP
+-54.0667;-71.0054;30;terrestrial;colleted date;1.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-54.317;-69.5;31;marine;Nacella deaurata;530;20;Merino-Campos et al. 2019;reliable date;CWP
+-54.317;-69.5;31;terrestrial;colleted date;0.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-54.433;-70.433;32;marine;Nacella magellanica;530;20;Merino-Campos et al. 2019;reliable date;CWP
+-54.433;-70.433;32;terrestrial;colleted date;1.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-54.9747;-71.1044;33;marine;Scurria zebrina;505;20;Merino-Campos et al. 2019;reliable date;CWP
+-54.9747;-71.1044;33;terrestrial;colleted date;1.5;0.25;Merino-Campos et al. 2019;reliable date;CWP
+-29.9516;-71.3491;1;marine;marine shell;605;25;Carre et al. 2016;reliable date;CWP
+-29.9516;-71.3491;1;normal;colleted date;118.5;0.25;Carre et al. 2016;reliable date;CWP
+-31.9;-71.5;2;marine;marine shell;3560;35;Carre et al. 2016;strickly relationship;CWP-LH
+-31.9;-71.5;2;terrestrial;charcoal;3090;40;Carre et al. 2016;strickly relationship;CWP-LH
+-31.9;-71.5;3;marine;marine shell;6350;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;3;terrestrial;charcoal;6000;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;4;marine;marine shell;8125;30;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;4;terrestrial;charcoal;7780;35;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;5;marine;marine shell;8125;30;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;5;terrestrial;charcoal;7880;25;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;6;marine;marine shell;9100;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;6;terrestrial;charcoal;8690;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;7;marine;marine shell;9100;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;7;terrestrial;charcoal;8620;110;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;8;marine;marine shell;9310;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;8;terrestrial;charcoal;9190;45;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;9;marine;marine shell;9310;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;9;terrestrial;charcoal;9190;130;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;10;marine;marine shell;10360;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;10;terrestrial;charcoal;9790;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;11;marine;marine shell;10640;60;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;11;terrestrial;charcoal;9790;40;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;12;marine;marine shell;10180;70;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;12;terrestrial;terrestrialshell;9890;30;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;13;marine;marine shell;10400;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;13;terrestrial;charcoal;10050;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;14;marine;marine shell;10400;50;Carre et al. 2016;strickly relationship;EH
+-31.9;-71.5;14;terrestrial;charcoal;10050;55;Carre et al. 2016;strickly relationship;EH
+-13.9554;-76.2667;1;marine;Protothaca asperrima;553;40;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;1;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;2;marine;Protothaca asperrima;564;65;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;2;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;3;marine;Protothaca asperrima;612;32;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;3;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;4;marine;Protothaca asperrima;567;32;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;4;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;5;marine;Protothaca asperrima;533;44;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;5;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;6;marine;Protothaca asperrima;547;38;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;6;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;7;marine;Protothaca asperrima;514;54;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;7;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;8;marine;Protothaca asperrima;511;42;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;8;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;9;marine;Protothaca asperrima;479;39;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;9;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;10;marine;Protothaca asperrima;482;37;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;10;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;11;marine;Protothaca asperrima;542;29;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;11;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;12;marine;Protothaca asperrima;614;53;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;12;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;13;marine;Protothaca asperrima;627;31;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;13;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;14;marine;Protothaca asperrima;500;42;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;14;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;15;marine;Protothaca asperrima;617;59;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;15;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;16;marine;Protothaca asperrima;547;41;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;16;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;17;marine;Protothaca asperrima;576;37;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;17;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;18;marine;Protothaca asperrima;622;30;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;18;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;19;marine;Protothaca asperrima;585;29;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;19;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;20;marine;Protothaca asperrima;422;82;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;20;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;21;marine;Protothaca asperrima;621;44;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;21;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;22;marine;Protothaca asperrima;662;55;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;22;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;23;marine;Protothaca asperrima;511;36;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;23;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;24;marine;Protothaca asperrima;583;36;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;24;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;25;marine;Protothaca asperrima;605;42;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;25;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;26;marine;Protothaca asperrima;549;55;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;26;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;27;marine;Protothaca asperrima;676;62;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;27;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;28;marine;Protothaca asperrima;822;65;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;28;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;29;marine;Protothaca asperrima;611;36;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;29;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;30;marine;Protothaca asperrima;544;41;Etayo et al.2019;reliable date;CWP
+-13.9554;-76.2667;30;normal;colleted date;7.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;31;marine;Donax obesulus;605;36;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;31;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;32;marine;Donax obesulus;575;53;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;32;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;33;marine;Donax obesulus;497;71;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;33;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;34;marine;Donax obesulus;642;46;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;34;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;35;marine;Donax obesulus;584;53;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;35;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;36;marine;Donax obesulus;578;50;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;36;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;37;marine;Donax obesulus;569;69;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;37;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;38;marine;Donax obesulus;602;77;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;38;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;39;marine;Donax obesulus;521;34;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;39;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;40;marine;Donax obesulus;688;55;Etayo et al.2019;reliable date;CWP
+-8.2373;-78.9662;40;normal;colleted date;29.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;41;marine;Donax obesulus;586;40;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;41;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;42;marine;Donax obesulus;551;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;42;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;43;marine;Donax obesulus;551;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;43;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;44;marine;Donax obesulus;551;33;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;44;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;45;marine;Donax obesulus;606;32;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;45;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;46;marine;Donax obesulus;454;39;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;46;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;47;marine;Donax obesulus;569;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;47;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;48;marine;Donax obesulus;576;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;48;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;49;marine;Donax obesulus;577;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;49;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;50;marine;Donax obesulus;570;32;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;50;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;51;marine;Donax obesulus;585;33;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;51;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;52;marine;Donax obesulus;586;31;Etayo et al.2019;reliable date;CWP
+-4.6449;-81.3264;52;normal;colleted date;26.5;0.25;Etayo et al.2019;reliable date;CWP
+-16.33;-74.3;1;marine;mesodesma donacium;8255;88;Ortlieb et al. 2011;strickly relationship;EH
+-16.33;-74.3;1;terrestrial;charcoal;7511;126;Ortlieb et al. 2011;strickly relationship;EH
+-16.33;-74.3;2;marine;mesodesma donacium;9334;159;Ortlieb et al. 2011;strickly relationship;EH
+-16.33;-74.3;2;terrestrial;charcoal;8892;132;Ortlieb et al. 2011;strickly relationship;EH
+-17.23;-71.6;3;marine;concholepas concholepas;2810;60;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.23;-71.6;3;terrestrial;charcoal;2238;108;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;4;marine;Perumytulus purpuratus;4145;60;Ortlieb et al. 2011;strickly relationship;MH
+-17.96;-70.88;4;terrestrial;charcoal;3535;60;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;5;marine;Chiton sp;3865;60;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;5;terrestrial;charcoal;3535;60;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;6;marine;Perumytulus purpuratus;4115;60;Ortlieb et al. 2011;strickly relationship;MH
+-17.96;-70.88;6;terrestrial;charcoal;3515;40;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;7;marine;Loxechinus albus ;4035;60;Ortlieb et al. 2011;strickly relationship;MH
+-17.96;-70.88;7;terrestrial;charcoal;3515;40;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-17.96;-70.88;8;marine;Chiton sp;7505;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;8;terrestrial;charcoal;6065;70;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;9;marine;concholepas concholepas;7285;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;9;terrestrial;charcoal;6065;70;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;10;marine;Perumytulus purpuratus;6885;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;10;terrestrial;charcoal;6065;70;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;11;marine;Chiton sp;7505;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;11;terrestrial;charcoal;6785;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;12;marine;concholepas concholepas;7285;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;12;terrestrial;charcoal;6785;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;13;marine;Perumytulus purpuratus;6885;60;Ortlieb et al. 2011;strickly relationship;EH
+-17.96;-70.88;13;terrestrial;charcoal;6785;60;Ortlieb et al. 2011;strickly relationship;EH
+-21.82;-69.72;14;marine;protothaca thaca ;645;33;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-21.82;-69.72;14;terrestrial;colleted date;38;18;Ortlieb et al. 2011;reliable date;CWP
+-23.06;-69.33;15;marine;Argopecten purpuratus;540;60;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-23.06;-69.33;15;terrestrial;colleted date;28.5;9.5;Ortlieb et al. 2011;reliable date;CWP
+-23.06;-69.33;16;marine;Argopecten purpuratus;795;30;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-23.06;-69.33;16;terrestrial;colleted date;28.5;9.5;Ortlieb et al. 2011;reliable date;CWP
+-23.06;-69.33;17;marine;Argopecten purpuratus;474;32;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-23.06;-69.33;17;terrestrial;colleted date;28.5;9.5;Ortlieb et al. 2011;reliable date;CWP
+-23.06;-69.33;18;marine;Argopecten purpuratus;598;29;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-23.06;-69.33;18;terrestrial;colleted date;28.5;9.5;Ortlieb et al. 2011;reliable date;CWP
+-23.06;-69.33;19;marine;protothaca thaca ;835;40;Ortlieb et al. 2011;strickly relationship;CWP-LH
+-23.06;-69.33;19;terrestrial;colleted date;41;9;Ortlieb et al. 2011;reliable date;CWP
+-12;-72.7;1;marine;organic material 14C;1155;45;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;1;normal;organic material 210Pb;2;2;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;2;marine;organic material 14C;805;30;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;2;normal;organic material 210Pb;33;6;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;3;marine;organic material 14C;830;30;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;3;normal;organic material 210Pb;59;8;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;4;marine;organic material 14C;690;45;Gutierrez et al. 2009;strickly relationship;CWP
+-12;-72.7;4;normal;organic material 210Pb;80;10;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;5;marine;organic material 14C;680;45;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;5;normal;organic material 210Pb;0;3;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;6;marine;organic material 14C;740;30;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;6;normal;organic material 210Pb;30;4;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;7;marine;organic material 14C;760;30;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;7;normal;organic material 210Pb;67;4;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;8;marine;organic material 14C;770;50;Gutierrez et al. 2009;strickly relationship;CWP
+-14.07;-76.5;8;normal;organic material 210Pb;90;5;Gutierrez et al. 2009;strickly relationship;CWP
+-12.06;-77.16;1;marine;argopectpen purpuratus;643;44;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;1;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;2;marine;argopectpen purpuratus;601;35;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;2;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;3;marine;argopectpen purpuratus;668;50;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;3;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;4;marine;argopectpen purpuratus;708;44;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;4;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;5;marine;argopectpen purpuratus;557;51;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;5;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;6;marine;argopectpen purpuratus;578;47;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;6;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;7;marine;argopectpen purpuratus;637;42;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;7;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;8;marine;argopectpen purpuratus;657;48;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;8;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;9;marine;argopectpen purpuratus;543;47;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;9;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;10;marine;argopectpen purpuratus;703;54;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;10;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;11;marine;argopectpen purpuratus;636;35;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;11;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;12;marine;argopectpen purpuratus;662;32;Jones et al. 2007;strickly relationship;CWP
+-5.75;-81;12;normal;collected date;47.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;13;marine;argopectpen purpuratus;496;82;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;13;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;14;marine;argopectpen purpuratus;646;45;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;14;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;15;marine;argopectpen purpuratus;666;42;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;15;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;16;marine;argopectpen purpuratus;668;55;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;16;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;17;marine;argopectpen purpuratus;712;50;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;17;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;18;marine;argopectpen purpuratus;600;44;Jones et al. 2007;strickly relationship;CWP
+-12.06;-77.16;18;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;19;marine;argopectpen purpuratus;552;50;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;19;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;20;marine;argopectpen purpuratus;589;49;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;20;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;21;marine;argopectpen purpuratus;670;36;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;21;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;22;marine;argopectpen purpuratus;617;36;Jones et al. 2007;strickly relationship;CWP
+-8.23;-79;22;normal;collected date;29.5;0.25;Jones et al. 2007;strickly relationship;CWP
+-18.04;-70.83;1;marine;shell;8315;60;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;1;normal;organic material;8040;105;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;2;marine;shell;6845;30;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;2;normal;charcoal;6630;70;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;3;marine;shell;7310;50;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;3;normal;organic material;7320;80;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;4;marine;shell;7095;50;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;4;normal;organic material;6940;60;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;5;marine;shell;6110;80;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;5;normal;charcoal;6460;60;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;6;marine;shell;6110;80;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;6;normal;charcoal;6510;60;Fontugne et al. 2004;not relationship;EH
+-18.04;-70.83;7;marine;shell;8860;130;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;7;normal;organic material;8160;70;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;8;marine;shell;8780;70;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;8;normal;organic material;8040;105;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;9;marine;shell;4445;40;Fontugne et al. 2004;strickly relationship;MH
+-18.04;-70.83;9;normal;organic material;3700;40;Fontugne et al. 2004;strickly relationship;LH
+-18.04;-70.83;10;marine;shell;7070;80;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;10;normal;charcoal;6090;80;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;11;marine;shell;7480;80;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;11;normal;charcoal;6560;90;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;12;marine;shell;8125;30;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;12;normal;organic material;7390;50;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;13;marine;shell;7160;80;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;13;normal;organic material;6595;75;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;14;marine;shell;3595;90;Fontugne et al. 2004;strickly relationship;LH
+-18.04;-70.83;14;normal;charcoal;3120;80;Fontugne et al. 2004;strickly relationship;LH
+-18.04;-70.83;15;marine;shell;7790;120;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;15;normal;charcoal;6500;80;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;16;marine;shell;1050;30;Fontugne et al. 2004;strickly relationship;CWP-LH
+-18.04;-70.83;16;normal;wood;375;30;Fontugne et al. 2004;strickly relationship;CWP-LH
+-18.04;-70.83;17;marine;shell;6640;50;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;17;normal;charcoal;6090;110;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;18;marine;shell;9725;90;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;18;normal;organic material;8650;70;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;19;marine;shell;7880;90;Fontugne et al. 2004;strickly relationship;EH
+-18.04;-70.83;19;normal;charcoal;7360;100;Fontugne et al. 2004;strickly relationship;EH
+-17.6;-71.23;1;marine;Choromitykus chorus ;1358;46;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;1;terrestrial;Schinus molle;730;60;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;2;marine;Choromitykus chorus ;1428;56;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;2;terrestrial;Schinus molle;701;38;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;3;marine;Choromitykus chorus ;1530;40;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;3;terrestrial;Schinus molle;662;34;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;4;marine;Choromitykus chorus ;3961;47;Owen 2002;strickly relationship;CWP-LH
+-17.6;-71.23;4;terrestrial;Schinus molle;3439;43;Owen 2002;strickly relationship;CWP-LH
+-17.53;-71.35;1;marine;concholepas concholepas;5050;60;Kennett et al. 2002;strickly relationship;MH
+-17.53;-71.35;1;terrestrial;charcoal;4620;60;Kennett et al. 2002;strickly relationship;MH
+-17.53;-71.35;2;marine;concholepas concholepas;4950;70;Kennett et al. 2002;strickly relationship;MH
+-17.53;-71.35;2;terrestrial;charcoal;4530;80;Kennett et al. 2002;strickly relationship;MH
+-33.1;-71.8;1;marine;marine shell;520;50;Ingram&Southon 1996;strickly relationship;CWP
+-33.1;-71.8;1;normal;colleted date;16.5;0.25;Ingram&Southon 1996;strickly relationship;CWP
+-53.181;-70.9223;2;marine;Mytilus sp;680;40;Ingram&Southon 1996;strickly relationship;CWP
+-53.181;-70.9223;2;terrestrial;colleted date;16.5;0.25;Ingram&Southon 1996;strickly relationship;CWP
+0;-90;1;marine;Fasciolaria Princeps;468;43;Taylor & Berger 1967;strickly relationship;CWP
+0;-90;1;normal;colled date;21.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
+0;-90;2;marine;Nerita scabricosta;443;40;Taylor & Berger 1967;strickly relationship;CWP
+0;-90;2;normal;colled date;23.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
+-10;-80;3;marine;organic material 14C;700;49;Taylor & Berger 1967;strickly relationship;CWP
+-10;-80;3;normal;colled date;20.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
+-14;-78;4;marine;organic material 14C;1127;44;Taylor & Berger 1967;strickly relationship;CWP
+-14;-78;4;normal;colled date;20.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
+-24;-70;5;marine;concholepas concholepas;626;34;Taylor & Berger 1967;strickly relationship;CWP
+-24;-70;5;terrestrial;colleted date;25.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
+-33;-72;6;marine;marine shell;770;76;Taylor & Berger 1967;strickly relationship;CWP
+-33;-72;6;normal;colleted date;20.5;0.25;Taylor & Berger 1967;strickly relationship;CWP
