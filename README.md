@@ -392,7 +392,7 @@ dev.off()
 
 ################################################################################
 #Generalized additive model
-#I use data without replicated value. it are 82 samples.
+#I use data without replicated value. it are 86 samples.
 
 r.d=t.r2
 colnames(r.d)=c("la","lo","cal","e","r","sdr","ref")
