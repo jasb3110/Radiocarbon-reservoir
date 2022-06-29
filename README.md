@@ -37,7 +37,7 @@ boxes $/Delta$R estimated under Marine20
 
 
 ## Discussion 
-![alt text](
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)
 
 
 ## Conclusions
@@ -931,7 +931,7 @@ ggsave("reservoir3.png", dpi = 900,   width = 275,
        
 library("gifski")
 png_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)[15:17]
-gifski::gifski(png_files,width = 275,height = 175,delay = 5, gif_file = "animation.gif")
+gifski::gifski(png_files = png_files,width = 275*900*0.0393701,height =175*900*0.0393701,delay =3, gif_file = "animation.gif")
 ################################################################################
 ```
 
