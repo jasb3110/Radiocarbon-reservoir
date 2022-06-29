@@ -22,6 +22,9 @@ I sorted of new data (without repeated data) for space variables (latitude and l
 
 Multivariate analysis 
 
+dimensions
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/f0b58cfab1d0039a4d82a6b084599221bb5a9d7d/AMV.dimesiones.png?raw=true)
+
 biplot
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
 
