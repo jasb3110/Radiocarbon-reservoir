@@ -6,19 +6,22 @@ Radiocarbon (C-14) is a cosmogenic radionuclide produced in the upper atmosphere
 It is well-known as specific biogeochesmistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tool which estimate to radiocarbon age during last 50 Kyrs in several areas research. In this work I update values of marine radiocarbon age (MRA) according to calibrated curve (Marine20 & Shcal20). Also I focus on MRA relationship with space-time variables (latitude, longitude , calibrated age and uncertainty age).
 
 ## Materials and methods
-
-In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
+In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile (0 to 50 °S) during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data2.png?raw=true)
 
-I used a "Bchron package" for estimate marine age and terrestrial each pair according to Marine20 and Shcal20. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After, I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. 
+I used a Bchron package in R to estimate maximum probability of  calibrated marine and terrestrial age according to Marine20 and Shcal20, respectfully. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After that I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. So that, I solve this issue, using error weight mean for delete extra values and reduced error calibration.
 
-I sorted of new data (without repeated data) for space variables (latitude and longitude), calibrated age (maximum probability age and Uncertainty of maximum probability age) and $\Delta$ R (estimated value and its uncertainty).
-
+I sorted of data (without repeated data) for period time: Early Holocene (EH),Mid holocene (MH), Late Holocene (LH) and Current warming period (CWP); space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.Next, I did realized that Factorial multivariate analysis(FMA) of 86 pairs of data and Generalized analysis model(GAM).
 
 ## Principal outcomes
+
+Based on seven selected variables over the length of whole data set
+(n=86), the PCA results indicate that most variance of the data set (52.42%) was encompassed by the first and second principal components (Fig. 1).   776u7
+
+
 
 Multivariate analysis 
 
@@ -82,8 +85,8 @@ onesigma=.682689492137086#0.682689492137086
 twosigma=.954499736103642#0.954499736103642
 
 #p=hafsigma# half sigma
-p=onesigma#one sigma
-#p=twosigma#two sigma
+#p=onesigma#one sigma
+p=twosigma#two sigma
 
 d$lower=NULL
 d$upper=NULL
@@ -133,8 +136,8 @@ d$sdmax.upper=abs(d$max-d$upper)
 #abline(v=d$lower[i],col="blue")# lower value
 #abline(v=d$upper[i],col="red")#upper value
 #abline(v=d$median[i],col="green")#median value
-#abline(v=d$max[i],col="black")#Maximum probability value!!!!!!!!!!!!!!!!
-#}
+#abline(v=d$max[i],col="black")#Maximum probability value, this was useful!
+#
 
 ################################################################################
 #According to Russel et al.2011
