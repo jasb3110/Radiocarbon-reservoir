@@ -38,8 +38,7 @@ ellipses
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
 
 heat map
-![alt text](
-?raw=true)
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/76c98e3f854986139c4cba96ed2d53aa1ef1a4fe/GAM%20radiocarbon%20heat%20map.tif?raw=true)
 
 boxes $\Delta$ R estimated under Marine20
 
