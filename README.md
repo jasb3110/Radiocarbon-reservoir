@@ -9,9 +9,9 @@ It is well-known as specific biogeochesmistry conditions regional effect on carb
 
 In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
 
-![alt text](?raw=true)
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
-![alt text](?raw=true)
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data2.png?raw=true)
 
 I used a "Bchron package" for estimate marine age and terrestrial each pair according to Marine20 and Shcal20. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After, I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. 
 
@@ -19,7 +19,26 @@ I sorted of new data (without repeated data) for space variables(latitude & long
 
 ## Principal outcomes
 
+Multivariate analysis 
+
+biplot
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
+
+
+ellipses
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
+
+heat map
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.heat.map.png?raw=true)
+
+boxes $/Delta$R estimated under Marine20
+
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)
+
+
 ## Discussion 
+
+
 
 ## Conclusions
 
@@ -909,7 +928,11 @@ reservoir3=ggplot(data =toplot)+
 #x11();reservoir3
 ggsave("reservoir3.png", dpi = 900,   width = 275,
        height = 175,unit="mm",plot =reservoir3)
-
+       
+library("gifski")
+png_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)[15:17]
+togif=c(png_files[[15]],png_files[[16]],png_files[[17]])
+gifski::gifski(png_files, gif_file = "animation.gif")
 ################################################################################
 ```
 
