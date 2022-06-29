@@ -1,19 +1,19 @@
 # Radiocarbon reservoir effect off Peru and Chile during last 12 Kys BP
 
 ## Introduction
-It is well-known as specific biogeochesmistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tool which estimate to radiocarbon age during last 50 Kyrs in several areas research. In this work I update values of marine radiocarbon age (MRA) according to calibrated curve (MARINE20 & SHCAL20). Also I focus on MRA relationship with space-time variables (lattitude, longittude , calibrated age and uncertainty age).
+It is well-known as specific biogeochesmistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tool which estimate to radiocarbon age during last 50 Kyrs in several areas research. In this work I update values of marine radiocarbon age (MRA) according to calibrated curve (Marine20 & Shcal20). Also I focus on MRA relationship with space-time variables (latitude, longitude , calibrated age and uncertainty age).
 
 ## Materials and methods
 
 In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
 
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/b2066d3fabacddd2a407abb9eab3cf86b30d2b84/input%20data%20set1.png?raw=true)
+![alt text](?raw=true)
 
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/b2066d3fabacddd2a407abb9eab3cf86b30d2b84/input%20data%20set2.png?raw=true)
+![alt text](?raw=true)
 
 I used a "Bchron package" for estimate marine age and terrestrial each pair according to Marine20 and Shcal20. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After, I reduced pool data of 181 to 82 samples for decreasing overweight of repeated data. 
 
-I sorted of new data (without repeated data) for space variables(Lattitude & longittude), calibrated age (Maximum probability age, Uncertainty of Maximum probability age) and Radioca
+I sorted of new data (without repeated data) for space variables(latitude & longitude), calibrated age (Maximum probability age & Uncertainty of Maximum probability age) and $\Delta$ R(Estimated $\Delta$ R & Uncertainty of $\Delta$ R).
 
 ## Principal outcomes
 
@@ -37,7 +37,7 @@ library("Bchron")
 #To delete outliers
 d=read.csv("Radiocarbon reservoir.csv",sep=";",dec=".",header = TRUE)#data all data
 d=as.data.frame(d)
-d$label=paste(d$reference,d$Lattitude,"°","-Material:",d$type.of.material,"Sample:",d$pair,sep=" ")
+d$label=paste(d$reference,d$latitude,"°","-Material:",d$type.of.material,"Sample:",d$pair,sep=" ")
 d$curve=d$calibrate.curve
 d$curve[d$calibrate.curve=="terrestrial"&d$Convencial.age>=126]="shcal20"#155 ± 11 BP (Hogg et al. 2019) is used in SHCal20.
 d$curve[d$calibrate.curve=="marine"]="Marine20"
@@ -49,7 +49,7 @@ age.t=BchronCalibrate( #It is getting calibrated in Marine20 and Shcal20
   ageSds = d$SD.convencial.age,
   eps = 1e-05,
   calCurves =d$curve,
-  positions = d$Lattitude,
+  positions = d$latitude,
   ids=d$label)
 
 hafsigma=.382924922548026#0.382924922548026 
@@ -139,25 +139,24 @@ for(i in sec){
   rlist[[i]]=assign(paste0("r",i*.5),get(paste0("marine",i-1))-get(paste0("terrestrial",i)))
 }
 
-t.r=as.data.frame(cbind(as.numeric(d$Lattitude[sec]),as.numeric(d$Longittude[sec]),d$max[sec],d$sdmax.lower[sec]*.5+d$sdmax.upper[sec]*.5,NA,NA,d$pairs[sec],d$reference[sec],d$obs[sec],d$period.time[sec]))
+t.r=as.data.frame(cbind(as.numeric(d$latitude[sec]),as.numeric(d$longitude[sec]),d$max[sec],d$sdmax.lower[sec]*.5+d$sdmax.upper[sec]*.5,NA,NA,d$pairs[sec],d$reference[sec],d$obs[sec],d$period.time[sec]))
 
-colnames(t.r)=c("Lattitude","Longittude","Cal BP(Maximun probability)","error(yr)","R","sdR","pair","reference","obs","period")
+colnames(t.r)=c("latitude","longitude","Cal BP(Maximun probability)","error(yr)","R","sdR","pair","reference","obs","period")
 
-for(i in 1:length(t.r$Lattitude)){
+for(i in 1:length(t.r$latitude)){
 t.r$R[i]=as.numeric(round(mean(get(paste0("r",i))),2))
 t.r$sdR[i]=as.numeric(round(sd(get(paste0("r",i))),2))
 }
 
-label=paste0(t.r$Lattitude,"/",t.r$`Cal BP(Maximun probability)`,"/",t.r$Longittude)
+label=paste0(t.r$latitude,"/",t.r$`Cal BP(Maximun probability)`,"/",t.r$longitude)
 label=factor(label,levels=unique(label))
 t.r$label=label
 
 write.csv(t.r,"outcome.csv",sep=";",dec=".",col.names = TRUE) 
 ###############################################################################
 #Method of Error propagation of variance, according to R.Reimer & P.Reimer et al. 2016
-#according to R.Reimer & P.Reimer et al. 2016
 #Asumption three sample is minimum of pool database
-#Error in the weighted mean: I create a function
+#I create a function Error in the weighted mean().
 
 error.weigthed.mean=function(r,dr,sigma=2,show=1,warning=0,...){
   if(is.numeric(r)&&is.numeric(dr)!=1){
@@ -223,8 +222,8 @@ t.r2[1:length(p2),]=NA
 t.r2$label=p2
 
 for(i in 1:length(p2)){
-t.r2$Lattitude[i]=t.r$Lattitude[which(t.r$label==t.r2$label[i])][1]
-t.r2$Longittude[i]= t.r$Longittude[which(t.r$label==t.r2$label[i])][1] 
+t.r2$latitude[i]=t.r$latitude[which(t.r$label==t.r2$label[i])][1]
+t.r2$longitude[i]= t.r$longitude[which(t.r$label==t.r2$label[i])][1] 
 t.r2$reference[i]=t.r$reference[which(t.r$label==t.r2$label[i])][1] 
 t.r2$obs[i]=t.r$obs[which(t.r$label==t.r2$label[i])][1] 
 t.r2$pair[i]=t.r$pair[which(t.r$label==t.r2$label[i])][1] 
@@ -242,51 +241,51 @@ write.csv(t.r2,"outcome2.csv",sep=";",dec=".",col.names = TRUE)
 ###############################################################################
 # To estimate of Radiocarbon reservoir effect on Boxes.
 
-#for lattitude 0°S-22°S during 6000 to 10500 yr BP
+#for latitude 0°S-22°S during 6000 to 10500 yr BP
 w=-22
 sigma1=2
 showme=1
 warn=1
 
-Rp1=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
-sRp1=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
-c1=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
+Rp1=as.numeric(t.r2$R[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
+sRp1=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
+c1=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000&t.r2$obs!="not relationship"])
 p1=error.weigthed.mean(Rp1,sRp1,sigma1,showme,warn)
 
 #during 100 to 5500 yr BP
-Rp2=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
-sRp2=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
-c2=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+Rp2=as.numeric(t.r2$R[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+sRp2=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+c2=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
 p2=error.weigthed.mean(Rp2,sRp2,sigma1,showme,warn)
 
 #during 100 to 4000 yr BP
-#Rp3=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<4000&t.r2$obs!="not relationship"])
-#sRp3=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<4000&t.r2$obs!="not relationship"])
+#Rp3=as.numeric(t.r2$R[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<4000&t.r2$obs!="not relationship"])
+#sRp3=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<4000&t.r2$obs!="not relationship"])
 #error.weigthed.mean(Rp3,sRp3,sigma1,showme,warn)
 
 #during -10 to 100 yr BP
-Rp4=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
-sRp4=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
-c3=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+Rp4=as.numeric(t.r2$R[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+sRp4=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+c3=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)>w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
 p3=error.weigthed.mean(Rp4,sRp4,sigma1,showme,warn)
 
-#for lattitude-22°S-51°S
+#for latitude-22°S-51°S
 #during 6000 to 10500 yr BP
-Rp5=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
-sRp5=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
-c4=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
+Rp5=as.numeric(t.r2$R[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
+sRp5=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
+c4=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>6000])
 p4=error.weigthed.mean(Rp5,sRp5,sigma1,showme,warn)
 
 #during 100 to 5500 yr BP
-Rp6=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
-sRp6=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
-c5=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+Rp6=as.numeric(t.r2$R[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+sRp6=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
+c5=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>100&as.numeric(t.r2$`Cal BP(Maximun probability)`)<5500&t.r2$obs!="not relationship"])
 p5=error.weigthed.mean(Rp6,sRp6,sigma1,showme,warn)
 
 #during -10 to 100 yr BP
-Rp8=as.numeric(t.r2$R[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
-sRp8=as.numeric(t.r2$sdR[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
-c6=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$Lattitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+Rp8=as.numeric(t.r2$R[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+sRp8=as.numeric(t.r2$sdR[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
+c6=as.numeric(t.r2$`Cal BP(Maximun probability)`[as.numeric(t.r2$latitude)<w&as.numeric(t.r2$`Cal BP(Maximun probability)`)>-10&as.numeric(t.r2$`Cal BP(Maximun probability)`)<100&t.r2$obs!="not relationship"])
 p6=error.weigthed.mean(Rp8,sRp8,sigma1,showme,warn)
 
 ###############################################################################
@@ -314,15 +313,15 @@ ref=factor(t.r2$period,levels=c("CWP","LH","MH","EH"))
 
 tab<- data.frame(ref,sp,dat,reser)
 
-tab$Lattitude=as.numeric(t.r2$Lattitude)
-tab$Longittude=as.numeric(t.r2$Longittude)
+tab$latitude=as.numeric(t.r2$latitude)
+tab$longitude=as.numeric(t.r2$longitude)
 tab$Cal.BP.Maximun.probability.=as.numeric(tab$Cal.BP.Maximun.probability.)
 tab$error.yr.=as.numeric(tab$error.yr.)
 tab$R=as.numeric(tab$R)
 tab$sdR=as.numeric(tab$sdR)
 
-colnames(tab)=c("Period time","Lattitude°S",
-                "Longittude°W","Maximun probability (Cal BP)",
+colnames(tab)=c("Period time","latitude°S",
+                "longitude°W","Maximun probability (Cal BP)",
                 "Uncertainty Maximun probability (Cal BP)",
                 expression("\u0394R"),
                 paste0("Uncertainty ",expression("\u0394R")))
@@ -398,8 +397,8 @@ colnames(r.d)=c("la","lo","cal","e","r","sdr","ref")
 
 r.d$r=as.numeric(t.r2$R)+1-min(as.numeric(t.r2$R))
 r.d$sdr=as.numeric(t.r2$sdR)
-r.d$la=-1*as.numeric(t.r2$Lattitude)
-r.d$lo=-1*as.numeric(t.r2$Longittude)
+r.d$la=-1*as.numeric(t.r2$latitude)
+r.d$lo=-1*as.numeric(t.r2$longitude)
 r.d$e=as.numeric(t.r2$`error(yr)`)
 r.d$cal=as.numeric(t.r2$`Cal BP(Maximun probability)`)+1-min(as.numeric(t.r2$`Cal BP(Maximun probability)`))
 r.d=as.data.frame(r.d)
@@ -445,7 +444,7 @@ library("itsadug")
 #Heat map of Radiocarbon reservoir off Peru & Chile during last 12 Kyrs
 
 png("R.reservoir.png", width = 500, height = 318, units = 'mm', res =900)
-fvisgam(r.effect.gam,n.grid =100,color="topo", view=c("cal","la"),ylim=c(0,50),xlim =c(0,12000),nCol=100,show.diff =FALSE,hide.label = TRUE,rm.ranef=TRUE,transform = "exp", print.summary=FALSE, labcex=0.1,alpha.diff = 0.05,xlab="Calibrated age (Kyrs BP)",ylab="Lattitude °S")
+fvisgam(r.effect.gam,n.grid =100,color="topo", view=c("cal","la"),ylim=c(0,50),xlim =c(0,12000),nCol=100,show.diff =FALSE,hide.label = TRUE,rm.ranef=TRUE,transform = "exp", print.summary=FALSE, labcex=0.1,alpha.diff = 0.05,xlab="Calibrated age (Kyrs BP)",ylab="latitude °S")
 dev.off()
 
 ###############################################################################
@@ -578,10 +577,10 @@ toplot$Zone.solis[1:3]=as.character("Zone 1: 0-22°S")
 toplot$Zone.solis[4:6]=as.character("Zone 2: 22-50°S")
 t.r2$zone=NA
 
-t.r2$Lattitude=as.numeric(t.r2$Lattitude)
-t.r2$zone=rep(NA,length(t.r2$Lattitude))
-t.r2$zone[which(t.r2$Lattitude>22*-1)]=as.character("Zone 1: 0-22°S")
-t.r2$zone[which(t.r2$Lattitude<22*-1)]=as.character("Zone 2: 22-50°S")
+t.r2$latitude=as.numeric(t.r2$latitude)
+t.r2$zone=rep(NA,length(t.r2$latitude))
+t.r2$zone[which(t.r2$latitude>22*-1)]=as.character("Zone 1: 0-22°S")
+t.r2$zone[which(t.r2$latitude<22*-1)]=as.character("Zone 2: 22-50°S")
 t.r2$zone=factor(t.r2$zone,levels=c("Zone 1: 0-22°S","Zone 2: 22-50°S"))
 
 t.r2$`Cal BP(Maximun probability)`=as.numeric(t.r2$`Cal BP(Maximun probability)`)
