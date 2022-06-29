@@ -14,12 +14,14 @@ In this work is trying to estimate local radiocarbon reservoir effect off ($\Del
 
 I used a Bchron package in R to estimate maximum probability of  calibrated marine and terrestrial age according to Marine20 and Shcal20, respectfully. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After that I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. So that, I solve this issue, using error weight mean for delete extra values and reduced error calibration.
 
-I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyrs BP,Mid Holocene (MH) was 7 to 4 Kyrs BP, Late Holocene (LH) was 4 to 0.2 Kyrs BP  and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.Next, I did do Factorial multivariate analysis(FMA),using Factominer package, and Generalized analysis model(GAM), using mgcv package, of 86 pairs of data.
+I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyrs BP,Mid Holocene (MH) was 7 to 4 Kyrs BP, Late Holocene (LH) was 4 to 0.2 Kyrs BP  and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.
+
+Next, I did do Factorial multivariate analysis(FMA),using Factominer package, and Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculted MRA according to latitude and calibrated age (Cal yrs BP) in boxes, using error weight mean for decrease error propagation.
 
 ## Principal outcomes
 
 Based on seven selected variables over the length of whole data set
-(n=86), the PCA results indicate that most variance of the data set (52.42%) was encompassed by the first and second principal components (Fig. 1).   776u7
+(n=86), the PCA results indicate that most variance of the data set (52.42%) was encompassed by the first and second principal components (Fig. 1).
 
 
 
