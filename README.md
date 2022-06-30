@@ -1,4 +1,14 @@
 # New estimations of delta R values for the South-eastern Pacific obtained from Marine20
+## Contents
+- [Abstract](##abstract)
+- [Introduction](#$introduction)
+- [Materials and methods](##materials-and-methods)
+- [Principal outcomes](##principal-outcomes)
+- [Discussion](##discussion)
+- [Conclusions](##conclusions)
+- [References](##references)
+- [R code](##r-code)
+
 ## Abstract
 Radiocarbon (C-14) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism have different 14-C ages because the ocean is a source of C-14 and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55  calibrated Kiloyears before to present, thus serving as a baseline for regional oceanic variation. Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 86 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA show a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to ~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records need to be revised.
 
