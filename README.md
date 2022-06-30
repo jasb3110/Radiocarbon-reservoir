@@ -24,10 +24,9 @@ title: "Plotting"
 output:
   png_document:
     fig_caption: yes
----
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
 in Figure \ref{fig:figs} we see examples of plotting in R.
-
+---
 
 Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components (Fig. 1). PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age.
 
