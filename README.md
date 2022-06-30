@@ -32,7 +32,7 @@ Next, I did do Factorial multivariate analysis(FMA),using Factominer package, an
 
 | ![AMV.biplot.png](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
 |:--:| 
-|figure 1. Biplot of Principal component of data (n=86) |
+|[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true) Biplot of Principal component of data (n=86) |
 
 Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components 
 
