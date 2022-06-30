@@ -32,9 +32,11 @@ Next, I did do Factorial multivariate analysis(FMA),using Factominer package, an
 
 | ![AMV.biplot.png](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
 |:--:| 
-| *figure 1. Biplot of Principal component of data (n=86)* |
+|figure 1. Biplot of Principal component of data (n=86) |
 
-Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components (Fig. 1). PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age.
+Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components 
+
+PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age.
 
 Another hand, PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R (fig. 1).
 
@@ -58,7 +60,7 @@ boxes $\Delta$ R estimated under Marine20
 ## References
 
 ## R code
-Bellow I attached a R-script. [Contact Us](mailto:solisbenites.jose@gmail.com) here, if you consider to give opinions, suggestions and questions. 
+Bellow I attached a R-script. [Contact Us](mailto:solisbenites.jose@gmail.com) here, if you consider to give opinions, suggestions and questions.  [(fig. 1)](AMV.biplot.png).
  
 ```markdown
 ################################################################################
