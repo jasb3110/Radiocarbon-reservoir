@@ -19,6 +19,7 @@ I sorted of data (without repeated data) for period time: Early Holocene (EH) wa
 Next, I did do Factorial multivariate analysis(FMA),using Factominer package, and Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculted MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using error weight mean for decrease error propagation.
 
 ## Principal outcomes
+---
 title: "Plotting"
 output:
   png_document:
