@@ -23,8 +23,6 @@ Next, I did do Factorial multivariate analysis(FMA),using Factominer package, an
 Based on seven selected variables over the length of whole data set
 (n=86), the PCA results indicate that most variance of the data set (52.42%) was encompassed by the first and second principal components (Fig. 1).
 
-
-
 Multivariate analysis 
 
 dimensions
@@ -32,7 +30,6 @@ dimensions
 
 biplot
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
-
 
 ellipses
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
@@ -44,10 +41,8 @@ boxes $\Delta$ R estimated under Marine20
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)
 
-
 ## Discussion 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)
-
 
 ## Conclusions
 
