@@ -19,17 +19,13 @@ I sorted of data (without repeated data) for period time: Early Holocene (EH) wa
 Next, I did do Factorial multivariate analysis(FMA),using Factominer package, and Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculted MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using error weight mean for decrease error propagation.
 
 ## Principal outcomes
-
-Based on seven selected variables over the length of whole data set
-(n=86), the PCA results indicate that most variance of the data set (52.42%) was encompassed by the first and second principal components (Fig. 1).
-
-Multivariate analysis 
-
-dimensions
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/f0b58cfab1d0039a4d82a6b084599221bb5a9d7d/AMV.dimesiones.png?raw=true)
-
-biplot
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
+
+Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components (Fig. 1). PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age.
+
+Another hand, PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude,  of $\Delta$ R and uncertainty of $\Delta$ R (Fig. 1).
+
+According to 
 
 ellipses
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
