@@ -20,7 +20,7 @@ Next, I did do Factorial multivariate analysis(FMA),using Factominer package, an
 
 ## Principal outcomes
 ---
-![title at top^[Font: Own Elaboration (this must be under the image)] \label{fig:VPBFX}](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
+![title at top^[Font: Own Elaboration (this must be under the image)] \label{  "fat"}](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)
 ---
 
 Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components (Fig. 1). PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age.
