@@ -31,7 +31,7 @@ Next, I did do Factorial multivariate analysis(FMA),using Factominer package, an
 ## Principal outcomes
 
 
-|{Principal components analysis}[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
+|[### Principal components analysis][![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
 |:--:| 
 |*Figure 1. Biplot of Principal component of data (n=86)*|
 
