@@ -71,15 +71,20 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 ### Latitudinal distribution of MRA
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
 |:--:| 
-|*Figure 3. Latitudinal distribution of MRA off Peru and Chile the last 12 Kyr BP*|
+|*Figure 3. Latitudinal distribution of MRA off Peru & Chile the last 12 Kyr BP*|
 
-
-boxes $\Delta$ R estimated under Marine20
-
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)
+### MRA estimated under Marine20
+|[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
+|:--:| 
+|*Figure 4. Marine resevoir age for boxes off Peru & Chile*|
 
 ## Discussion 
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)
+
+|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
+|:--:| 
+|*Figure 5. Animation of MRA according to calibrated curves*|
+
+
 
 ## Conclusions
 
