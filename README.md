@@ -47,7 +47,7 @@ I used a Bchron package in R to estimate the maximum probability of calibrated m
 
 I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.
 
-Next, I did do a Factorial multivariate analysis(FMA), using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
+Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
 
 ## Principal outcomes
 In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86).
@@ -73,10 +73,6 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 |:--:| 
 |*Figure 3. Latitudinal distribution of MRA off Peru and Chile the last 12 Kyr BP*|
 
-
-
-
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)
 
 boxes $\Delta$ R estimated under Marine20
 
