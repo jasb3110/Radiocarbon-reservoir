@@ -32,40 +32,39 @@ In the atmosphere, Nitrogen 14 has transformed to isotope 14 carbon in 10 km.
 
 
 
-When researcher are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018). 
+When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018). 
 
-It is well-known as specific biogeochesmistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tool which estimate to radiocarbon age during last 50 Kyr in several areas research. In this work I update values of marine radiocarbon age (MRA) according to calibrated curve (Marine20 & Shcal20). Also I focus on MRA relationship with space-time variables (latitude, longitude , calibrated age and uncertainty age).
+It is well-known as specific biogeochemistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of marine radiocarbon age (MRA) according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
 
 ## Materials and methods
-In this work is trying to estimate local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile (0 to 50 °S) during last 12 Kyrs BP. Therefore, I compiled several previous estimations. It were 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow I attached input data set.
+This work estimates the local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile (0 to 50 °S) during the last 12 Kyrs BP. Therefore, I compiled several previous estimations. It was 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data2.png?raw=true)
 
-I used a Bchron package in R to estimate maximum probability of  calibrated marine and terrestrial age according to Marine20 and Shcal20, respectfully. Then I calculated a difference between each pair under bootstrapping suggesting for Russell et al. 2011. After that I reduced pool data of 181 to 86 samples for decreasing overweight of repeated data. So that, I solve this issue, using error weight mean for delete extra values and reduced error calibration.
+I used a Bchron package in R to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 181 to 86 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
 
-I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP,Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP  and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.
+I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.
 
-Next, I did do Factorial multivariate analysis(FMA),using Factominer package, and Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculted MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using error weight mean for decrease error propagation.
+Next, I did do a Factorial multivariate analysis(FMA), using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
 
 ## Principal outcomes
-In this part, I would show highlight results about this work.
+In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86).
 
-### Biplot
+### Principal component analysis (PCA)
 
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
 |:--:| 
 |*Figure 1. Biplot of Principal component of data (n=86)*|
 
-Multivariate analysis was based on seven selected variables over the length of whole data set (n=86), the PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#biplot).
+The PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
-PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-outcomes).
+PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-component-analysis-(pca)).
 
+According to period of time, It could not evidence temporal effect on the MRA. 
 
-According to 
-
-ellipses
+### ellipses
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
 
 heat map
