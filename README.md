@@ -53,7 +53,6 @@ Next, I did do a Factorial multivariate analysis(FMA), using the Factominer pack
 In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86).
 
 ### Principal component analysis (PCA)
-
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
 |:--:| 
 |*Figure 1. Biplot of Principal component of data (n=86)*|
@@ -62,12 +61,14 @@ The PCA results indicate that most variance of the data set ∼52% was encompass
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-component-analysis-(pca)).
 
-### ellipses
-According to period of time, It could not evidence temporal effect on the MRA.
-
+### Clusters of MRA for period time
 |[![Figure 2.](plotellipses.period.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)|
 |:--:| 
-|*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period, LH:Late Holocene, MH:Mid Holocene, EH:Early Holocene*|
+|*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
+
+According to periods, It could be no evidence of a temporal effect on the MRA.
+
+[(fig. 2)](#Clusters-of-mra-for-period-time).
 
 
 
