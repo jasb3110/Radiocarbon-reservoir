@@ -72,10 +72,10 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in boxes before estimating MRA.
 
 Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding effects of individual variables and its  interactions. this model is ajust a Tweedie distribution with function link logarithm.
-GAM( $\Delta$ R~s(Latitude, Longitude)+s(Calibrated age)+s(error calibrated age)+s(Calibrated age, error calibrated age)).
+GAM( $\Delta$R~s(Latitude, Longitude)+s(Calibrated age)+s(uncertainly calibrated age)+s(Calibrated age, uncertainly calibrated age)).
 
-R{2}=0.82
-R{2}adj=0.84
+R-squared is 0.82
+R-squared adjust is 0.84
 
 
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
