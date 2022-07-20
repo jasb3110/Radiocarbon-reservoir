@@ -71,7 +71,7 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 ### Latitudinal distribution of MRA
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in boxes before estimating MRA.
 
-Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding effects of individual variables and its  interactions. this model is ajust a Tweedie distribution with function link logarithm.
+Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding effects of individual variables and its  interactions. this model is adjusted  Tweedie distribution with function link logarithm.
 GAM( $\Delta$ R~s(Latitude, Longitude)+s(Calibrated age)+s(uncertainly calibrated age)+s(Calibrated age, uncertainly calibrated age)).
 
 R-squared is 0.82
