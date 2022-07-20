@@ -65,7 +65,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 ### ellipses
 According to period of time, It could not evidence temporal effect on the MRA.
 
-|[![Figure 2.](plotellipses.period.png)(https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)|
+|[![Figure 2.](plotellipses.period.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)|
 |:--:| 
 |*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period, LH:Late Holocene, MH:Mid Holocene, EH:Early Holocene*|
 
