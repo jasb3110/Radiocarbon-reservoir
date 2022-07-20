@@ -73,11 +73,13 @@ Some past works showed the difference in latitudinal of MRA off Peru & Chile. Ho
 |:--:| 
 |*Figure 3. Latitudinal distribution of MRA off Peru & Chile the last 12 Kyr BP*|
 
-Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a spline smooth for each variable. According to the output of GAM, this model has R-squared is 0.82 and adjusted R-squared is 0.84; hence, this GAM represents the variability of MRA significantly.
+Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted R-squared is 0.84; hence, this GAM represents the variability of MRA significantly.
 
-Then, I plotted a scatter of MRA, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distribution-of-mra). this picture I can see a sharp latitudinal pattern.
+Then, I plotted a scatter of MRA, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distribution-of-mra). this picture I can see a sharp latitudinal pattern in two zones: first (O to 22°S) and second (22 to 50°S). the border between two zones could be displacement northward during the last 12 Kyr BP. 
 
 ### MRA estimated under Marine20
+At the state above the latitudinal pattern of MRA in two zones is reliably acceptable. Accordingly, I can estimate a MRA for zones and period time. 
+
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:--:| 
 |*Figure 4. Marine resevoir age for boxes off Peru & Chile*|
