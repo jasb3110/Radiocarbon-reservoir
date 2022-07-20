@@ -82,7 +82,7 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 
 |[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
 |:--:| 
-|*Figure 5. Animation of MRA according to calibrated curves*|
+|*Figure 5. Comparison of estimated Marine reservoir age*|
 
 
 
