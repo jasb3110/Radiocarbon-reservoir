@@ -69,17 +69,16 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 ### Latitudinal distribution of MRA
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in boxes before estimating MRA.
 
+|[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
+|:--:| 
+|*Figure 3. Latitudinal distribution of MRA off Peru & Chile the last 12 Kyr BP*|
+
 Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017).
 this model has adjusted Tweedie distribution with the logarithm link function.
 
 GAM(MRA~s(Latitude, Longitude)+s(Calibrated age)+s(uncertainly calibrated age)+s(Calibrated age, uncertainly calibrated age)).
 
-According to output of GAM, this model has R-squared is 0.82 and R-squared adjust is 0.84
-
-
-|[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
-|:--:| 
-|*Figure 3. Latitudinal distribution of MRA off Peru & Chile the last 12 Kyr BP*|
+According to output of GAM, this model has R-squared is 0.82 and R-squared adjust is 0.84.
 
 ### MRA estimated under Marine20
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
