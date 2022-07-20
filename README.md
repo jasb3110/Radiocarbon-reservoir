@@ -50,14 +50,12 @@ I sorted of data (without repeated data) for period time: Early Holocene (EH) wa
 Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
 
 ## Principal outcomes
-In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86).
+In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
 ### Principal component analysis (PCA)
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
 |:--:| 
 |*Figure 1. Biplot of Principal component of data (n=86)*|
-
-The PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-component-analysis-(pca)).
 
@@ -66,16 +64,17 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 |:--:| 
 |*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
 
-According to periods, It could be no evidence of a temporal effect on the MRA during Holocene except to CWP [(fig. 2)](#Clusters-of-mra-for-period-time). 
+According to periods, It could be no evidence of a temporal effect on the MRA during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig. 2)](#Clusters-of-mra-for-period-time).
 
 ### Latitudinal distribution of MRA
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in boxes before estimating MRA.
 
-Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding effects of individual variables and its  interactions. this model is adjusted  Tweedie distribution with function link logarithm.
-GAM( $\Delta$ R~s(Latitude, Longitude)+s(Calibrated age)+s(uncertainly calibrated age)+s(Calibrated age, uncertainly calibrated age)).
+Therefore, I use GAM to find out about the spacial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017).
+this model has adjusted Tweedie distribution with the logarithm link function.
 
-R-squared is 0.82
-R-squared adjust is 0.84
+GAM(MRA~s(Latitude, Longitude)+s(Calibrated age)+s(uncertainly calibrated age)+s(Calibrated age, uncertainly calibrated age)).
+
+According to output of GAM, this model has R-squared is 0.82 and R-squared adjust is 0.84
 
 
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
