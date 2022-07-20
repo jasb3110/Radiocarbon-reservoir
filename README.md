@@ -62,10 +62,17 @@ The PCA results indicate that most variance of the data set ∼52% was encompass
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-component-analysis-(pca)).
 
-According to period of time, It could not evidence temporal effect on the MRA. 
-
 ### ellipses
-![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)
+According to period of time, It could not evidence temporal effect on the MRA.
+
+|![Figure 2.](plotellipses.period.png)(https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)|
+|:--:| 
+|*Figure 2. Clusters of MRA according to period time*|
+
+
+
+
+
 
 heat map
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)
