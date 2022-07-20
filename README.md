@@ -66,14 +66,16 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 |:--:| 
 |*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
 
-According to periods, It could be no evidence of a temporal effect on the MRA during Holocene except to CWP[(fig. 2)](#Clusters-of-mra-for-period-time).
+According to periods, It could be no evidence of a temporal effect on the MRA during Holocene except to CWP [(fig. 2)](#Clusters-of-mra-for-period-time).
+
+### Latitudinal distribution of MRA
+|[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
+|:--:| 
+|*Figure 3. Latitudinal distribution of MRA off Peru and Chile the last 12 Kyr BP*|
 
 
 
 
-
-
-heat map
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)
 
 boxes $\Delta$ R estimated under Marine20
