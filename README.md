@@ -78,11 +78,14 @@ Therefore, I use GAM to find out about the spatial & temporal effect on MRA off 
 Then, I plotted a scatter of MRA, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distribution-of-mra). this picture I can see a sharp latitudinal pattern in two zones: first (O to 22°S) and second (22 to 50°S). the border between two zones could be displacement northward during the last 12 Kyr BP. 
 
 ### MRA estimated under Marine20
-At the state above the latitudinal pattern of MRA in two zones is reliably acceptable. Accordingly, I can estimate an MRA by latitude and periods of time, similar to previous works.[(fig. 4)](#mra-estimated-under-marine20)
+At the state above the latitudinal pattern of MRA in two zones is reliably acceptable. Accordingly, I can estimate an MRA by latitude and periods of time, similar to previous works [(fig. 4)](#mra-estimated-under-marine20).
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:--:| 
-|*Figure 4. Marine resevoir age for boxes off Peru & Chile*|
+|*Figure 4. Diagram of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Local Of MRA estimated by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple)*|
+
+This picture 
+
 
 ## Discussion 
 
