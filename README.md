@@ -82,16 +82,16 @@ At the state above the latitudinal pattern of MRA in two zones is reliably accep
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:--:| 
-|*Figure 4. Diagram of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Local Of MRA estimated by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple)*|
+|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. box *|
 
-This picture 
+This picture I show that estimating of local MRA in boxes.
 
 
 ## Discussion 
 
 |[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
 |:--:| 
-|*Figure 5. Comparison of estimated Marine reservoir age*|
+|*Figure 5.Animation of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Local Of MRA estimated by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple)*|
 
 
 
