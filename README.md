@@ -10,7 +10,10 @@
 - [R code](#r-code)
 
 ## Abstract
-Radiocarbon (C-14) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism have different 14-C ages because the ocean is a source of C-14 and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55  calibrated Kiloyears before to present, thus serving as a baseline for regional oceanic variation. Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 86 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA show a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to ~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records need to be revised.
+Radiocarbon (C-14) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism have different 14-C ages because the ocean is a source of C-14 and thus marine organisms appear to be older than contemporaneous terrestrial organisms.
+This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55  calibrated Kiloyears before to present, thus serving as a baseline for regional oceanic variation. 
+Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 86 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA show a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during last 12 Kyr in the Eastern Tropical South Pacific. 
+Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to ~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records need to be revised.
 
 ## Introduction
 p0:Carbon cycle (emphasis in 14C)
@@ -82,9 +85,9 @@ At the state above the latitudinal pattern of MRA in two zones is reliably accep
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:--:| 
-|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. box *|
+|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.*|
 
-This picture I show that estimating of local MRA in boxes.
+In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of MRA does not belong same time windows. 
 
 
 ## Discussion 
