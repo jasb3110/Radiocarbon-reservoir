@@ -85,10 +85,9 @@ At the state above the latitudinal pattern of MRA in two zones is reliably accep
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:--:| 
-|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.*|
+|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA.*|
 
-In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of MRA does not belong same time windows. 
-
+In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of MRA does not belong same time windows.
 
 ## Discussion 
 
