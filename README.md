@@ -26,15 +26,9 @@ p5: to show that hipotesis I would test with it
 
 On Earth, there are three carbon isotope 12 (%), 13(%) and 14 (%) which involved a dynamic and complex process as called Carbon cycle. 
 
-
-
 This process has signed in atmosphere, ocean and rocks.
 
 In the atmosphere, Nitrogen 14 has transformed to isotope 14 carbon in 10 km. 
-
-
-
-
 
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018). 
 
