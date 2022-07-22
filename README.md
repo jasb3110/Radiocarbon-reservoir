@@ -93,7 +93,7 @@ In this picture, I show the estimation of local MRA in boxes. for two zones, Cal
 
 |[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
 |:--:| 
-|*Figure 5.Animation of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Local Of MRA estimated by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
+|*Figure 5.Animation of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Estimated local of MRA by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
 
 
 
