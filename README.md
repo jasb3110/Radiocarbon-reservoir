@@ -65,6 +65,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 According to periods, It could be no evidence of a temporal effect on the MRA during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig. 2)](#Clusters-of-mra-for-period-time).
 
 ### Latitudinal distribution of MRA
+
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in zones before estimating MRA.
 
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
