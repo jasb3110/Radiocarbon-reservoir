@@ -16,6 +16,7 @@ Here we compare the marine reservoir ages (MRA) obtained from the previous versi
 Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to ~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records need to be revised.
 
 ## Introduction
+
 p0:Carbon cycle (emphasis in 14C)
 p1: 14C sign on global ocean
 p2: Water mass 14C in Peru and chile
