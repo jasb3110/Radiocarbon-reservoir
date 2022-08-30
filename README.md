@@ -83,13 +83,13 @@ At the state above the latitudinal pattern of MRA in two zones is reliably accep
 |:--:| 
 |*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.*|
 
-In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of MRA does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (0-22°S, 10.6 to 5.8 Kyr BP and 5.6 to 0.3 Kyr BP; 22-50°S, 12 to 6.5 Kyr BP and 3.4 to 0.1 Kyr BP).
+In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of MRA does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr BP and 5.6 to 0.3 Kyr BP; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr BP and 3.4 to 0.1 Kyr BP).
 
 ## Discussion 
 
 |[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
 |:--:| 
-|*Figure 5.Animation of local Marine reservoir age  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Estimated local of MRA by Ortlieb et al. 2011(grey),by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
+|*Figure 5.Animation of local MRA  off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Estimated local of MRA by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
 
 
 
