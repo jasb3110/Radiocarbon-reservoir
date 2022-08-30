@@ -35,7 +35,7 @@ When researchers are trying of using radiocarbon ages for calendrical time scale
 It is well-known as specific biogeochemistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of marine radiocarbon age (MRA) according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
 
 ## Materials and methods
-This work estimates the local radiocarbon reservoir effect off ($\Delta$ R) Peru to Chile (0 to 50 °S) during the last 12 Kyrs BP. Therefore, I compiled several previous estimations. It was 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow, I attached the input data set.
+This work estimates the local radiocarbon reservoir effect off ( $\Delta$R ) Peru to Chile (0 to 50 °S) during the last 12 Kyrs BP. Therefore, I compiled several previous estimations. It was 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
@@ -48,12 +48,12 @@ I sorted of data (without repeated data) for period time: Early Holocene (EH) wa
 Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated MRA according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
 
 ## Principal outcomes
-In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=86). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
+In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=90). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
 ### Principal component analysis (PCA)
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
 |:--:| 
-|*Figure 1. Biplot of Principal component of data (n=86)*|
+|*Figure 1. Biplot of Principal component of data (n=90)*|
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta$ R and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta$ R [(fig. 1)](#principal-component-analysis-(pca)).
 
