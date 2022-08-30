@@ -35,13 +35,13 @@ When researchers are trying of using radiocarbon ages for calendrical time scale
 It is well-known as specific biogeochemistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of marine radiocarbon age (MRA) according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
 
 ## Materials and methods
-This work estimates the local radiocarbon reservoir effect off ( $\Delta$R ) Peru to Chile (0 to 50 °S) during the last 12 Kyrs BP. Therefore, I compiled several previous estimations. It was 181 pairs (Marine and terrestrial samples of different organic materials (wood, shell, etc). Bellow, I attached the input data set.
+This work estimates the local radiocarbon reservoir effect off ($\Delta$R) Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/2aa2f1dd8cfb7737d761e79f91086531b959a368/r.input%20data2.png?raw=true)
 
-I used a Bchron package in R to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 181 to 86 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
+I used a Bchron package in R to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 90 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
 
 I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;  $\Delta$ R: estimated value and its uncertainty.
 
@@ -68,11 +68,13 @@ According to periods, It could be no evidence of a temporal effect on the MRA du
 
 Some past works showed the difference in latitudinal of MRA off Peru & Chile. However, it did not validate a criterion for dividing in zones before estimating MRA.
 
+![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/28daaaf599fce917aae6eeb152fbd3153d507c0d/GAM%20outcome%20%20table.png?raw=true)
+
+Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted R-squared is 0.84; hence, this GAM represents the variability of MRA significantly.
+
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png)|
 |:--:| 
 |*Figure 3. Latitudinal distribution of MRA off Peru & Chile the last 12 Kyr BP*|
-
-Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted R-squared is 0.84; hence, this GAM represents the variability of MRA significantly.
 
 Then, I plotted a scatter of MRA, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distribution-of-mra). this picture I can see a sharp latitudinal pattern in two zones: first (O to 22°S) and second (22 to 50°S). the border between two zones could be displacement northward during the last 12 Kyr BP. 
 
