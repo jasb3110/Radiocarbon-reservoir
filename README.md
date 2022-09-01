@@ -17,7 +17,11 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 ## Introduction
 
-p0:Carbon cycle (emphasis in 14C)
+Radiocarbon (c-14) has produced by nuclear reaction due to cosmic rays in the upper atmosphere ~15km. Then C-14 is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
+
+ 
+
+
 p1: 14C sign on global ocean
 p2: Water mass 14C in Peru and chile
 p3: Citation marine20 curve brief description 
