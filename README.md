@@ -28,7 +28,7 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 Radiocarbon (c-14) has produced by nuclear reaction due to cosmic rays in the upper atmosphere ~15km. Then C-14 is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
-The distribution of C-14 in ocean is close related with input of C-14 atmosphere to ocean, history of surface ocean $$\sum_{i=1}^n X_i$$
+The distribution of C-14 in ocean is close related with input of C-14 atmosphere to ocean, history of surface ocean $$\Delta_{i=1}^n X_i$$
 $\Delta$^{14}C excess and average C02 invasion rate (Broecker et al. 1985)
 
 p1: 14C sign on global ocean
