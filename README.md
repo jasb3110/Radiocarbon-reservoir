@@ -16,7 +16,7 @@ output:
 - [R code](#r-code)
 
 ## Abstract
-Radiocarbon (C-14) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism have different 14-C ages because the ocean is a source of C-14 and thus marine organisms appear to be older than contemporaneous terrestrial organisms.
+Radiocarbon ($^{14}C$) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism have different 14-C ages because the ocean is a source of C-14 and thus marine organisms appear to be older than contemporaneous terrestrial organisms.
 
 This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55  calibrated Kiloyears before to present, thus serving as a baseline for regional oceanic variation. 
 
@@ -28,7 +28,7 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 Radiocarbon ($^{14}C$) has produced by nuclear reaction due to cosmic rays in the upper atmosphere ~15km. Then C-14 is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
-The distribution of C-14 in ocean is close related with input of C-14 atmosphere to ocean, history of surface ocean $\Delta^{14}C$ ($Fe_2^{2+}Cr_2O_4$) excess and average $CO_2$ invasion rate (Broecker et al. 1985).
+The distribution of C-14 in ocean is close related with input of C-14 atmosphere to ocean, history of surface ocean $\Delta^{14}C$ ($^{14}C/^{12}C$) excess and average $CO_2$ invasion rate (Broecker et al. 1985).
 
 p1: 14C sign on global ocean
 p2: Water mass 14C in Peru and chile
