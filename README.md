@@ -3,7 +3,6 @@ output:
   pdf_document: default
   html_document: default
 ---
-
 # New estimations of delta R values for the South-eastern Pacific obtained from Marine20
 
 ## Contents
