@@ -37,7 +37,6 @@ The important pattern is to latitudinal and longitudinal variations of $\Delta^{
 
 p2: Water mass 14C in Peru and chile p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
 
-
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
 It is well-known as specific biogeochemistry conditions regional effect on carbon 14 isotope. It is important to estimate this effect for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of marine radiocarbon age (MRA) according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
