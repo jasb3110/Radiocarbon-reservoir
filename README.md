@@ -31,15 +31,12 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 Radiocarbon ($^{14}C$) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then C-14 is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
-The contemporary distribution of C-14 in ocean is close related with input of C-14 atmosphere to ocean, history of surface ocean $\Delta^{14}C$ ($^{14}C/^{12}C$) excess depend on mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature ($CO_2$ solubity,$CO_2$ difusity and viscosity of sea water)(Broecker et al. 1985).
+The contemporary distribution of C-14 in the ocean is closely related to the input of C-14 atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ($^{14}C/^{12}C$) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility,$CO_2$ diffusion and viscosity of seawater(Broecker et al. 1985).
 
-p1: 14C sign on global ocean p2: Water mass 14C in Peru and chile p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
+The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985).
 
-On Earth, there are three carbon isotope 12 (%), 13(%) and 14 (%) which involved a dynamic and complex process as called Carbon cycle.
+p2: Water mass 14C in Peru and chile p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
 
-This process has signed in atmosphere, ocean and rocks.
-
-In the atmosphere, Nitrogen 14 has transformed to isotope 14 carbon in 10 km.
 
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
