@@ -3,6 +3,7 @@ output:
   html_document: default
   pdf_document: default
 ---
+
 # New estimations of delta R values for the South-eastern Pacific obtained from Marine20
 
 ## Contents
@@ -30,11 +31,19 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 Radiocarbon ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then C-14 is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
-The contemporary distribution of C-14 in the ocean is closely related to the input of C-14 atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater(Broecker et al. 1985).
+The contemporary distribution of C-14 in the ocean is closely related to the input of C-14 atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater (Broecker et al. 1985).
 
 The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985).
 
+
+
+
+
+
 p2: Water mass 14C in Peru and chile p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
+
+
+
 
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
@@ -42,7 +51,7 @@ It is well-known as specific biogeochemistry conditions regional effect on carbo
 
 ## Materials and methods
 
-This work estimates the local radiocarbon reservoir effect off ($\Delta$R) Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
+This work estimates the local radiocarbon reservoir effect off ( $\Delta$R ) Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
@@ -102,7 +111,7 @@ In this picture, I show the estimation of local MRA in boxes. for two zones, Cal
 
 |                                                                                                                 [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                 |
 |:----------------------------------------------------------------------:|
-| *Figure 5.Animation of local MRA off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Scal2013 & Marine2013 (grey) and Scal2020 & Marine2020(red). Estimated local of MRA by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box* |
+| *Figure 5.Animation of local MRA off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Schal13 & Marine13 (grey) and Schal20 & Marine20(red). Estimated local of MRA by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box* |
 
 ## Conclusions
 
