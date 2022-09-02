@@ -33,9 +33,15 @@ Radiocarbon ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in 
 
 The contemporary distribution of C-14 in the ocean is closely related to the input of C-14 atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater (Broecker et al. 1985).
 
-The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ levels of -72 and -77‰
+The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ levels was varied -72 and -77‰ off Peru were similar to the $\Delta^{14}C$ levels from Galapagos which interpreted Peru-Chile undercurrent (PCUC) as influenced by Peru upwelling. Also Cold Coastal water has promoted low $\Delta^{14}C due to low temperature, high density and thermocline in depth\~100 meters (Toggeweiler et al, 1991).
 
-p2: Water mass 14C in Peru and chile p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
+
+
+p2: Water mass 14C in Peru and chile 
+
+
+
+p3: Citation marine20 curve brief description p4: to update MRA 2011 of ( ortlieb and carre) p5: to show that hipotesis I would test with it
 
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
