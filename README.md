@@ -68,7 +68,7 @@ In this part, I would show highlight the results of this work.Multivariate analy
 ### Principal component analysis (PCA)
 
 | [![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true) |
-|:----------------------------------------------------------------------:|
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                                                *Figure 1. Biplot of Principal component of data (n=90)*                                                 |
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)).
@@ -76,7 +76,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 ### Clusters of Local MRA for period time
 
 |      [![Figure 2.](plotellipses.period.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)      |
-|:----------------------------------------------------------------------:|
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | *Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)* |
 
 According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig.2)](#Clusters-of-mra-for-period-time).
@@ -90,8 +90,8 @@ Some past works showed the difference in latitudinal of $\Delta R$ off Peru to C
 Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.84; hence, this GAM represents the variability of MRA significantly.
 
 | [![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png) |
-|:----------------------------------------------------------------------:|
-|                                                *Figure 3. Latitudinal distribution of* $\Delta R$ off Peru to Chile the last 12 Kyr BP                                                 |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                        \*Figure 3. Latitudinal distribution $\Delta R$ , inferred for GAM, off Peru to Chile the last 12 Kyr BP                                        |
 
 Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern in this picture, which could mean transitional zone:17 to 27°S. My assumption is frontier is 22°S which mark off two zones: first (O to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
 
@@ -100,7 +100,7 @@ Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according 
 At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20).
 
 |                                                            [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                            |
-|:----------------------------------------------------------------------:|
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | *Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
 
 In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of $\Delta R$ does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr BP and 5.6 to 0.3 Kyr BP; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr BP and 3.4 to 0.1 Kyr BP).
@@ -108,7 +108,7 @@ In this picture, I show the estimation of local MRA in boxes. for two zones, Cal
 ## Discussion
 
 |                                                                                                              [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                               |
-|:----------------------------------------------------------------------:|
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | *Figure 5.Animation of* $\Delta R$ off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated local of MRA by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box |
 
 ## Conclusions
