@@ -29,25 +29,31 @@ Moreover, the estimated MRA using the new radiocarbon age calibration curve is u
 
 ## Introduction
 
-Radiocarbon ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
+Radiocarbon-14 ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
 The contemporary distribution of $^{14}C$ in the ocean is closely related to the input of $^{14}C$ atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater (Broecker et al. 1985).
 
 The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ sign of Cold coastal water (CCW) off Peru and Chile is mixed between lighter variety South Antarctic mode water(SAMW) and an upper ocean end-member typified by the warm and salty water found in the subtropical high-salinity water or in the core of the Equatorial undercurrent(Toggweiller et al,1991).
 
-In order to convert the radiocarbon $^{14}C$ date to calendar   
+In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al, 2020).
+
+Ortlieb was mentioned that importance to the marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes(Ortlieb et al, 2011), freshwater input through rivers or runoff can bring CO2 derived from young organic debris 33°S in south.
 
 
-p4: to update MRA 2011 of ( ortlieb and carre2016 Merino 2019) p5: to show that hipotesis I would test with it
- p6: Citation marine20 curve brief description
+
+
+carre2016
+
+
+p5: to show that hipotesis I would test with it p6: Citation marine20 curve brief description
 
 When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
-It is well-known as specific biogeochemistry conditions regional effect on $^{14}C$. It is important to estimate this effect for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of MRA according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
+It is important to estimate MRA for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of MRA according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
 
 ## Materials and methods
 
-This work estimates the local MRA ( $\Delta R$ ) off Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
+This work estimates the regional MRA ( $\Delta R$ ) off Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
