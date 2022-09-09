@@ -23,13 +23,13 @@ Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmo
 
 ## Introduction
 
-Radiocarbon-14 ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
+Radiocarbon-14 ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al. 2018).
 
 The contemporary distribution of $^{14}C$ in the ocean is closely related to the input of $^{14}C$ atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater (Broecker et al. 1985).
 
-The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ sign of Cold coastal water (CCW) off Peru and Chile is mixed between lighter variety South Antarctic mode water(SAMW) and an upper ocean end-member typified by the warm and salty water found in the subtropical high-salinity water or in the core of the Equatorial undercurrent (EUC) (Toggweiller et al,1991).
+The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ sign of Cold coastal water (CCW) off Peru and Chile is mixed between lighter variety South Antarctic mode water(SAMW) and an upper ocean end-member typified by the warm and salty water found in the subtropical high-salinity water or in the core of the Equatorial undercurrent (EUC) (Toggweiller et al. 1991).
 
-In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon (DIC) in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al, 2020).
+In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon (DIC) in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al. 2020).
 
 Ortlieb mentioned that the importance of marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), which can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes (Ortlieb et al, 2011). Also, another factor that could alter $^{14}C$ is freshwater input through rivers or runoff can bring CO2 derived from young organic debris in south 33°S (Merino et al. 2019).
 
@@ -37,7 +37,7 @@ Latitudinal gradient of $\Delta R$ off Peru to Chile during early Holocene which
 
 At stated above the latitudinal gradient of $\Delta R$ also could explained for geographic origin of upwelled waters changed, potentially to Antarctic intermediate waters (AAIW) that are even more $^{14}C$ -depleted than SAMW (Carré et al, 2016). This pattern could be explained that the front between Equatorial subsurface water (ESSW) and Subantarctic Surface Water (SSW) was likely located north of its modern position (Carré et al, 2016).
 
-Recently, Many researchers proper a new calibration curve base on marine radiocarbon age (Marine20) was released and provides a global-average mixed layer marine record of radiocarbon from 0 to 55 cal kyr BP. Marine20 curve is constructed using the global carbon cycle model (BICYCLE) which integrates a carbon cycle: deep,ocean-sediment fluxes DIC, alkalinity, and process carbonate compensation (Heaton et al, 2020). Also, this work mentioned if you could calibrate Marine20 you would update $\Delta R$.
+Recently, Many researchers proper a new calibration curve base on marine radiocarbon age (Marine20) was released and provides a global-average mixed layer marine record of radiocarbon from 0 to 55 cal kyr BP and do not include polar zones. Marine20 curve is constructed using the global carbon cycle model (BICYCLE) which integrates a carbon cycle: deep,ocean-sediment fluxes DIC, alkalinity, and process carbonate compensation (Heaton et al, 2020). Also, this work mentioned if you could calibrate Marine20 you would update $\Delta R$.
 
 Therefore, It is important to estimate $\Delta R$ for dating tools that estimate a radiocarbon age. In this work, I update values of $\Delta R$ according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the $\Delta R$ relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age), and whether the hypotheses that explain previous works, still would validate with Marine20.
 
@@ -49,7 +49,7 @@ This work estimates the $\Delta R$ off Peru to Chile (0 to 50 °S) during the la
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/2aa2f1dd8cfb7737d761e79f91086531b959a368/r.input%20data2.png?raw=true)
 
-I used a Bchron package in R programing to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 90 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
+I used a Bchron package in R programming to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 90 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
 
 I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age; $\Delta R$ : estimated value and its uncertainty.
 
@@ -65,7 +65,7 @@ In this part, I would show highlight the results of this work.Multivariate analy
 |:----------------------------------------------------------------------:|
 |                                                *Figure 1. Biplot of Principal component of data (n=90)*                                                 |
 
-PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)).
+PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)). Hence, it can be said that the seven variables represent the variability of the data.
 
 ### Clusters of Local MRA for period time
 
@@ -73,7 +73,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 |:----------------------------------------------------------------------:|
 | *Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)* |
 
-According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig.2)](#Clusters-of-mra-for-period-time).
+According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig.2)](#Clusters-of-mra-for-period-time). Therefore, we don't use period-time in the proposed model which will explain forward.
 
 ### Latitudinal distribution of The local MRA off Peru to Chile
 
@@ -84,26 +84,26 @@ Some past works showed the difference in latitudinal of $\Delta R$ off Peru to C
 Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.84; hence, this GAM represents the variability of MRA significantly.
 
 | [![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png) |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:----------------------------------------------------------------------:|
 |                                        \*Figure 3. Latitudinal distribution $\Delta R$ , inferred for GAM, off Peru to Chile the last 12 Kyr BP                                        |
 
-Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern in this picture, which could mean transitional zone:17 to 27°S. My assumption is frontier is 22°S which mark off two zones: first (O to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
+Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern in this picture, which could mean gradient zone: 17 to 27°S. My assumption is frontier is 22°S which mark off two zones: first (O to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
 
 ### Local MRA estimated under Marine20
 
-At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20).
+At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carre etl al, 2016).
 
-|                                                            [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                            |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| *Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of local Marine reservoir age off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
+|                                                    [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                    |
+|:----------------------------------------------------------------------:|
+| *Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of* $\Delta R$ off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box. |
 
-In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of $\Delta R$ does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr BP and 5.6 to 0.3 Kyr BP; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr BP and 3.4 to 0.1 Kyr BP).
+In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of $\Delta R$ does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr Cal BP [11.2 to 6.4 kyr BP] and 5.6 to 0.3 Kyr Cal BP [6.2 to 0.9 kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr Cal BP [12.6 to 7.05 kyr BP] and 3.4 to 0.1 Kyr Cal BP [4 to 0.7 kyr BP]). where the values with "[]" represents Conventional age.Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°S and 22-50°S were 140±5 and 162±6, respectively.
 
 ## Discussion
 
-|                                                                                                              [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                               |
+|                                                                                                                   [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                    |
 |:----------------------------------------------------------------------:|
-| *Figure 5.Animation of* $\Delta R$ off Peru & Chile in boxes.Global of MRA estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated local of MRA by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box |
+| *Figure 5.Animation of* $\Delta R$ off Peru & Chile in boxes and background Global MRA estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box |
 
 ## Conclusions
 
