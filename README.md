@@ -37,15 +37,8 @@ The latitudinal gradient in $\Delta R$ off Peru to Chile during early Holocene w
 
 At stated above the high $\Delta R$ value during early to mid-Holocene, could explained for geographic origin of upwelled waters changed, potentially to Antarctic intermediate waters (AAIW) that are even more $^{14}C$ -depleted than SAMW (Carré et al, 2016)
 
+p6: Citation marine20 curve brief description
 
-
-
-
-carre2016
-
-p5: to show that hipotesis I would test with it p6: Citation marine20 curve brief description
-
-When researchers are trying of using radiocarbon ages for calendrical time scale interpretations or comparisons with dates obtained by other methods would be problematic (Alves et al. 2018).
 
 It is important to estimate MRA for dating tools that estimate to radiocarbon age during the last 50 Kyr in several areas of research. In this work, I update values of MRA according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the MRA relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age).
 
