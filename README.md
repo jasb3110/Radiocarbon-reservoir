@@ -28,9 +28,11 @@ The important pattern is to latitudinal and longitudinal variations of $\Delta^{
 
 In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al, 2020).
 
-Ortlieb was mentioned that importance to the marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes(Ortlieb et al, 2011), freshwater input through rivers or runoff can bring CO2 derived from young organic debris 33°S in south (Merino et al. 2019).
+Ortlieb mentioned that the importance of marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), which can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes (Ortlieb et al, 2011). Also, another factor that could alter $^{14}C$ is freshwater input through rivers or runoff can bring CO2 derived from young organic debris in south 33°S (Merino et al. 2019).
 
-The $\Delta R$ response latitudinal pattern off Peru to Chile, 
+The latitudinal gradient in $\Delta R$ off Peru to Chile during early Holocene which modulated for change Humboldt system due to 
+
+   
 
 
 carre2016
