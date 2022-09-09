@@ -37,9 +37,9 @@ The important pattern is to latitudinal and longitudinal variations of $\Delta^{
 
 In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al, 2020).
 
-Ortlieb was mentioned that importance to the marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes(Ortlieb et al, 2011), freshwater input through rivers or runoff can bring CO2 derived from young organic debris 33°S in south.
+Ortlieb was mentioned that importance to the marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes(Ortlieb et al, 2011), freshwater input through rivers or runoff can bring CO2 derived from young organic debris 33°S in south (Merino et al. 2019).
 
-
+The $\Delta R$ response latitudinal pattern off Peru to Chile, 
 
 
 carre2016
@@ -53,7 +53,7 @@ It is important to estimate MRA for dating tools that estimate to radiocarbon ag
 
 ## Materials and methods
 
-This work estimates the regional MRA ( $\Delta R$ ) off Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
+This work estimates the $\Delta R$ off Peru to Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
@@ -61,7 +61,7 @@ This work estimates the regional MRA ( $\Delta R$ ) off Peru to Chile (0 to 50 �
 
 I used a Bchron package in R programing to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively. Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 90 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
 
-I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age;$\Delta R$ : estimated value and its uncertainty.
+I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 200 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age; $\Delta R$ : estimated value and its uncertainty.
 
 Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 86 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
 
@@ -73,7 +73,7 @@ In this part, I would show highlight the results of this work.Multivariate analy
 
 | [![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true) |
 |:----------------------------------------------------------------------:|
-|                                                *Figure 1. Biplot of Principal component of data (n=90)*                                                 |
+|*Figure 1. Biplot of Principal component of data (n=90)*|
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)).
 
