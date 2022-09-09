@@ -7,6 +7,7 @@ output:
 # New estimations of delta R values for the South-eastern Pacific obtained from Marine20
 
 ## Contents
+
 -   [Abstract](#abstract)
 -   [Introduction](#introduction)
 -   [Materials and methods](#materials-and-methods)
@@ -17,26 +18,30 @@ output:
 -   [R code](#r-code)
 
 ## Abstract
+
 Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism has different $^{14}C$ ages because the ocean is a source of $^{14}C$ , and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 90 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to \~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised.
 
 ## Introduction
+
 Radiocarbon-14 ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al.,2018).
 
 The contemporary distribution of $^{14}C$ in the ocean is closely related to the input of $^{14}C$ atmosphere to the ocean, the history of surface ocean $\Delta^{14}C$ ( $^{14}C/^{12}C$ ) excess depends on the mixing process and average $CO_2$ invasion rate (Broecker et al. 1985). Geographic variation in the $CO_2$ invasion rate is dealing for temperature: $CO_2$ solubility, $CO_2$ diffusion and viscosity of seawater (Broecker et al. 1985).
 
-The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ sign of Cold coastal water (CCW) off Peru and Chile is mixed between lighter variety South Antarctic mode water(SAMW) and an upper ocean end-member typified by the warm and salty water found in the subtropical high-salinity water or in the core of the Equatorial undercurrent(Toggweiller et al,1991).
+The important pattern is to latitudinal and longitudinal variations of $\Delta^{14}C$ are pronounced in the Pacific ocean where the sizable west-to-east decrease in water column inventory (Broecker et al. 1985). The $\Delta^{14}C$ sign of Cold coastal water (CCW) off Peru and Chile is mixed between lighter variety South Antarctic mode water(SAMW) and an upper ocean end-member typified by the warm and salty water found in the subtropical high-salinity water or in the core of the Equatorial undercurrent (EUC) (Toggweiller et al,1991).
 
 In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al, 2020).
 
 Ortlieb mentioned that the importance of marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), which can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes (Ortlieb et al, 2011). Also, another factor that could alter $^{14}C$ is freshwater input through rivers or runoff can bring CO2 derived from young organic debris in south 33°S (Merino et al. 2019).
 
-The latitudinal gradient in $\Delta R$ off Peru to Chile during early Holocene which modulated for change Humboldt system due to 
+The latitudinal gradient in $\Delta R$ off Peru to Chile during early Holocene which modulated for change Humboldt system could due to upwelling enhancement alone and required that upwelled waters were more   $^{14}C$ -depleted (Carré et al, 2016; Fontugne et al, 2004). So that, the $\Delta R$ during early to mid-Holocene were higher than Late Holocene owing for poleward contraction of southern westerly wind (SWW) belt at \~53°S has increased contribution SAMW to the EUC (Hua et al, 2015).
 
-   
+At stated above the high $\Delta R$ value during early to mid-Holocene, could explained for geographic origin of upwelled waters changed, potentially to Antarctic intermediate waters (AAIW) that are even more $^{14}C$ -depleted than SAMW (Carré et al, 2016)
+
+
+
 
 
 carre2016
-
 
 p5: to show that hipotesis I would test with it p6: Citation marine20 curve brief description
 
@@ -66,7 +71,7 @@ In this part, I would show highlight the results of this work.Multivariate analy
 
 | [![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true) |
 |:----------------------------------------------------------------------:|
-|*Figure 1. Biplot of Principal component of data (n=90)*|
+|                                                *Figure 1. Biplot of Principal component of data (n=90)*                                                 |
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)).
 
