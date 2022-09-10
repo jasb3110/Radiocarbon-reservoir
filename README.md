@@ -19,7 +19,7 @@ output:
 
 ## Abstract
 
-Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism has different $^{14}C$ ages because the ocean is a source of $^{14}C$ , and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 90 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to \~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised.
+Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism has different $^{14}C$ ages because the ocean is a source of $^{14}C$ , and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes in upwelling intensity and the origin of the upwelled waters, and thus needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 95 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . These observations suggest that oceanic circulation is a key factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to \~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised.
 
 ## Introduction
 
@@ -57,7 +57,7 @@ Next, I did do a Factorial multivariate analysis, using the Factominer package, 
 
 ## Principal outcomes
 
-In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=90). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
+In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=95). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
 ### Principal component analysis (PCA)
 
@@ -65,7 +65,8 @@ In this part, I would show highlight the results of this work.Multivariate analy
 |:----------------------------------------------------------------------:|
 |                                                *Figure 1. Biplot of Principal component of data (n=90)*                                                 |
 
-PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)). Hence, it can be said that the seven variables represent the variability of the data.
+PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)). Hence, it can be said that the seven variables represent the variability of the data. My first assumption is to the difference in species or organic remains is not outstanding for estimating $\Delta R$.
+
 
 ### Clusters of Local MRA for period time
 
@@ -87,15 +88,15 @@ Therefore, I use GAM to find out about the spatial & temporal effect on MRA off 
 |:----------------------------------------------------------------------:|
 |                                        \*Figure 3. Latitudinal distribution $\Delta R$ , inferred for GAM, off Peru to Chile the last 12 Kyr BP                                        |
 
-Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern in this picture, which could mean gradient zone: 17 to 27°S. My assumption is frontier is 22°S which mark off two zones: first (O to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
+Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern in this picture, which could mean gradient zone: 17 to 27°S. My second assumption is frontier is 22°S which mark off two zones: first (0 to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
 
 ### Local MRA estimated under Marine20
 
 At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carre etl al, 2016).
 
-|                                                    [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                    |
+|                                                     [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                     |
 |:----------------------------------------------------------------------:|
-|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
+| *Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
 
 In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of $\Delta R$ does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr Cal BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Kyr Cal BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr Cal BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Kyr Cal BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age.
 
@@ -103,22 +104,26 @@ Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°
 
 ## Discussion
 
-|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
+|                                                                                                                           [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                           |
 |:----------------------------------------------------------------------:|
-|*Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and Global MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box*|
+| *Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and Global MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated* $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box |
 
 This animation showed comparative principal outcomes of previous works, and this work[(fig. 5)](#discussion). The boxes of $\Delta R$ are the same pattern as the boxes proposal for Carré et al. 2016. During EH, the magnitude of $\Delta R$ was higher in the box estimated with Marine20 than Marine13 which were estimated for 0-22°s ( \~400 years) and 22-50°S (\~100 yeas). In the same way, during the Mid to Late Holocene, The difference of $\Delta R$ can repeat for 0-22°S ( \~50 years) and 22-50°S (\~100 years).
 
-The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ deficit average according to Marine13 is \~300 years from 0-10.5 kyr Cal BP and according to Marine20 is \~500 years from 0-11.6 kyr Cal BP (Heaton et al. 2020). But $\Delta R$  off 0-22° was estimated during EH which exhibited an excess of \~200 years may due to MRA estimate in Marine20 is coupled to atmospheric $^{14}C$ and not Marine13 (Heaton et al. 2020).
+The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ deficit average according to Marine13 is \~300 years from 0-10.5 kyr Cal BP and according to Marine20 is \~500 years from 0-11.6 kyr Cal BP (Heaton et al. 2020). But $\Delta R$ off 0-22° was estimated during EH which exhibited an excess of \~200 years may due to MRA estimate in Marine20 is coupled to atmospheric $^{14}C$ and not Marine13 (Heaton et al. 2020).
+
+During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-50°S (\~1000 years), also is looking up in this work [(fig. 4)](#local-mra-estimated-under-marine20). The latitudinal gradient of $\Delta R$ likely was modulated for the minor contribution of  SAMW to EUC and ESSW , has low $\Delta^{14}C$, in forming CCW and/or increase upwelling during EH (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004). 
+
+Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model showed that transitional zone between 17 to 27°S probably interpreted zone of Permanent/seasonlly upwelling moved northward/southward during Holocene. Also, it can explain how to increase input of fresh water by precipitation, which might contribute to a reduction of the reservoir effect (Merino et al. 2019)
+
+
+
+
 
 
 
 
 ## Conclusions
-
-
-
-
 
 ## References
 
