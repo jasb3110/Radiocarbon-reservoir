@@ -109,7 +109,10 @@ Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°
 
 This animation showed comparative principal outcomes of previous works, and this work[(fig. 5)](#discussion). The boxes of $\Delta R$ are the same pattern as the boxes proposal for Carré et al. 2016. During EH, the magnitude of $\Delta R$ was higher in the box estimated with Marine20 than Marine13 which were estimated for 0-22°s ( \~400 years) and 22-50°S (\~100 yeas). In the same way, during the Mid to Late Holocene, The difference of $\Delta R$ can repeat for 0-22°S ( \~50 years) and 22-50°S (\~100 years).
 
-The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ deficit average according to Marine13 is \~300 years from 0-10.5 kyr Cal BP and according to Marine20 is \~500 years from 0-11.6 kyr Cal BP (Heaton et al. 2020). But $\Delta R$  off 0-22° was estimated during EH which exhibited excess of \~200 years can not be alone $\Delta^{14}C$ deficit.
+The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ deficit average according to Marine13 is \~300 years from 0-10.5 kyr Cal BP and according to Marine20 is \~500 years from 0-11.6 kyr Cal BP (Heaton et al. 2020). But $\Delta R$  off 0-22° was estimated during EH which exhibited an excess of \~200 years may due to MRA estimate in Marine20 is coupled to atmospheric $^{14}C$ and not Marine13 (Heaton et al. 2020).
+
+
+
 
 ## Conclusions
 
