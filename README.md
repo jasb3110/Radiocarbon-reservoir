@@ -63,7 +63,7 @@ In this part, I would show highlight the results of this work.Multivariate analy
 
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
 |:----------------------------------------------------------------------:|
-|                                                *Figure 1. Biplot of Principal component of data (n=96)*                                                 |
+|*Figure 1. Biplot of Principal component of data (n=96)*|
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)). Hence, it can be said that the seven variables represent the variability of the data. My first assumption is to the difference in species or organic remains is not outstanding for estimating $\Delta R$.
 
@@ -74,7 +74,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 |:----------------------------------------------------------------------:|
 |*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
 
-According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods.[(fig.2)](#Clusters-of-mra-for-period-time). Therefore, we don't use period-time in the proposed model which will explain forward.
+According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods [(fig.2)](#Clusters-of-mra-for-period-time). Therefore, we don't use period-time in the proposed model which will explain forward.
 
 ### Latitudinal distribution of The local MRA off Peru to Chile
 
