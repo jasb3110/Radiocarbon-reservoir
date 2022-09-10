@@ -142,6 +142,7 @@ Future research should take more variables (e.g reconstructed $CO_2$ off Peru to
 - Owen, B. D. (2002). Marine carbon reservoir age estimates for the far south coast of Peru. Radiocarbon, 44(3), 701–708. https://doi.org/10.1017/S003382220003215X
 - Taylor, A. R. E., & Berger, R. (1967). Radiocarbon Content of Marine Shells from the Pacific Coasts of Central and South America. Science, 158(3805), 1180–1182.
 - Toggweiler, J. R., K. Dixon, & Broecker, W. S. (1991). The Peru Upwelling and Ventilatation of the South Pacific Thermocline. New York, 96(9), 1–31. https://doi.org/https://doi.org/10.1029/91JC02063
+- Russell, N., Cook, G. T., Ascough, P. L., Scott, E. M., & Dugmore, A. J. (2011). Examining the inherent variability in ΔR: New methods of presenting ΔR values and implications for MRE studies. Radiocarbon, 53(2), 277–288. https://doi.org/10.1017/s003382220005654x
 - Wood, S.N. (2017). Generalized Additive Models: An Introduction with R (2nd ed.). Chapman and Hall/CRC. https://doi.org/10.1201/9781315370279
 
 ## R code
