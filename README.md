@@ -95,7 +95,7 @@ At the state above the latitudinal pattern of $\Delta R$ split off in two zones 
 
 |                                                    [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                    |
 |:----------------------------------------------------------------------:|
-| *Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of * $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
+|*Figure 4. Diagram of local Marine reservoir age off Peru & Chile in boxes. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
 
 In this picture, I show the estimation of local MRA in boxes. for two zones, Calibrated age of $\Delta R$ does not belong same time windows. There are four boxes (two orange and two purple) boxes of MRA that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Kyr Cal BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Kyr Cal BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Kyr Cal BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Kyr Cal BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age.
 
@@ -105,7 +105,7 @@ Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°
 
 |                                                                                                                   [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                    |
 |:----------------------------------------------------------------------:|
-| *Figure 5.Animation of * $\Delta R$ *off Peru & Chile in boxes and background Global MRA estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
+|*Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and background Global MRA estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple).The thick black lines is mean value of MRA each box*|
 
 This animation showed comparative principal outcomes of previous works, and this work[(fig. 5)](#discussion). The boxes of $\Delta R$ are the same pattern as the boxes proposal for Carré et al. 2016. During EH, the magnitude of $\Delta R$ was higher in the box estimated with Marine20 than Marine13 which were estimated for 0-22°s ( \~400 years) and 22-50°S (\~100 yeas). In the same way, during the Mid to Late Holocene, The difference of $\Delta R$ can repeat for 0-22°S ( \~50 years) and 22-50°S (\~100 years).
 
