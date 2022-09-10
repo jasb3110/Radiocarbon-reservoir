@@ -31,7 +31,7 @@ The important pattern is to latitudinal and longitudinal variations of $\Delta^{
 
 In order to calculate radiocarbon age which assumes a time-independent atmospheric $^{14}C$ level in all past times. However, specific marine $^{14}C$ content could differ from the atmosphere $CO_2$ (Stuiver & Polach, 1977), called Marine reservoir effect (MRE).Therefore, Calibration age is required to correct by $^{14}C$ activity based on tree-rings in equilibrium with $CO_2$ atmospheric, and variability of $CO_2$ ensemble from Ice-core which is called marine reservoir ages (MRA) is to define the difference Calendar age and $^{14}C$ age of dissolved inorganic carbon (DIC) in the mixed ocean surface layer with respect to the atmosphere at that location (Heaton et al. 2020).
 
-Ortlieb mentioned that the importance of marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), which can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes (Ortlieb et al, 2011). Also, another factor that could alter $^{14}C$ is freshwater input through rivers or runoff can bring CO2 derived from young organic debris in south 33°S (Merino et al. 2019).
+Ortlieb mentioned that the importance of marine correction may also incorporate an additional regional MRA (hereafter $\Delta R$), which can reach particularly high values in high-latitude coastal zones and regions affected by strong upwelling processes (Ortlieb et al, 2011). Also, another factor that could alter $^{14}C$ is freshwater input through rivers or runoff can bring $CO_2$ derived from young organic debris in south 33°S (Merino et al. 2019).
 
 Latitudinal gradient of $\Delta R$ off Peru to Chile during early Holocene which modulated for change Humboldt system could due to upwelling enhancement alone and required that upwelled waters were more $^{14}C$ -depleted (Carré et al, 2016; Fontugne et al, 2004). So that, the $\Delta R$ during early to mid-Holocene were higher than Late Holocene owing for poleward contraction of southern westerly wind (SWW) belt at \~53°S has increased contribution SAMW to the EUC (Hua et al, 2015).
 
@@ -114,18 +114,15 @@ The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ def
 
 During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-50°S (\~1000 years), also is looking up in this work [(fig. 4)](#local-mra-estimated-under-marine20). The latitudinal gradient of $\Delta R$ likely was modulated for the minor contribution of  SAMW to EUC and ESSW , has low $\Delta^{14}C$, in forming CCW and/or increase upwelling during EH (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004). 
 
-Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model showed that transitional zone between 17 to 27°S probably interpreted zone of Permanent/seasonally upwelling moved northward/southward during Holocene. Also, it can explain how to increase input of fresh water by precipitation, which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
-
-
-
-
-
-
-
+Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model showed that the transitional zone between 17 to 27°S probably interpreted zone of Permanent/seasonally upwelling moved northward/southward during the Holocene. Also, it can explain how to increase the input of fresh water which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
 
 ## Conclusions
 
-## References
+The spatial variability of $\Delta R$ revealed oceanographic changes in associated origin CCW or enhanced upwelling regionally off South-eastern Pacific and climatic changes associated with river discharge by precipitation during Holocene. Anothers aspect is reduce of uncertainty in $\Delta R$ for using 
+
+
+
+## Reference
 
 ## R code
 
