@@ -74,7 +74,7 @@ PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highe
 |:----------------------------------------------------------------------:|
 |*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
 
-According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods [(fig. 2)](#Clusters-of-mra-for-period-time). Therefore, we don't use period-time in the proposed model which will explain forward.
+According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods [(fig. 2)](#Clusters-of-mra-for-period-time). Therefore, we didn't use period-time as an input variable in the model which will explain forward.
 
 ### Latitudinal distribution of The local MRA off Peru to Chile
 
