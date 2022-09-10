@@ -117,7 +117,7 @@ Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(
 
 ## Conclusions
 
-The spatial variability of $\Delta R$ revealed oceanographic changes in associated origin CCW or enhanced upwelling regionally off South-eastern Pacific and climatic changes inferred river discharge by precipitation during Holocene. Another aspect was reduced uncertainty of $\Delta R$ for using error weight means and bootstrapping.
+The spatial variability of $\Delta R$ revealed oceanographic changes in associated origin CCW or enhanced upwelling regionally off South-eastern Pacific and climatic changes inferred river discharge by precipitation during Holocene. A relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
 
 Future research should include more variables (e.g reconstructed marine $CO_2$ off Peru to Chile)to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
