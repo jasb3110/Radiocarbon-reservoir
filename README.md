@@ -103,7 +103,7 @@ Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°
 
 ## Discussion
 
-|                                                                                                                   [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                    |
+|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
 |:----------------------------------------------------------------------:|
 |*Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and Global MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated $\Delta R$ by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box*|
 
