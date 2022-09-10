@@ -82,7 +82,7 @@ Some past works showed the difference in latitudinal of $\Delta R$ off Peru to C
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/3b3b58adbce85c25b358e8054096a8717a34649d/GAM%20outcome%20%20table.png?raw=true)
 
-Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.84; hence, this GAM represents the variability of MRA significantly.
+Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.83 and desviance explained is \~85%.  hence, this GAM represents the variability of MRA significantly.
 
 | [![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png) |
 |:----------------------------------------------------------------------:|
