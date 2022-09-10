@@ -600,6 +600,7 @@ dev.off()
 fvisgam(r.effect.gam,n.grid =100,color="topo", view=c("cal","la"),ylim=c(0,50),xlim =c(0,12000),nCol=100,show.diff =FALSE,transform = "exp")# WITH number label
 
 ##############################
+#to plot graphics
 toplot=read.csv("comparacion de las curvas de calibracion.csv",sep=";",dec=".",header = TRUE)
 library(ggplot2)
 library(ggh4x)
