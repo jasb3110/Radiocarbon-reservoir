@@ -43,17 +43,17 @@ Therefore, It is important to estimate $\Delta R$ for dating tools that estimate
 
 ## Materials and methods
 
-This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains). Bellow, I attached the input data set.
+This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs (Marine and terrestrial samples of different organic materials (wood, shell and others organic remains)obtained in the South-Eastern Pacific Ocean (SEPO).Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/2aa2f1dd8cfb7737d761e79f91086531b959a368/r.input%20data2.png?raw=true)
 
-I used a Bchron package in R programming to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively (Heaton et al. 2020; Hogg et al. 2020). Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 96 samples for decreasing the overweight of repeated data. So that, I solve this issue, using error weight means deleting extra values and reducing error calibration.
+I used a Bchron package in R programming to estimate the maximum probability of calibrated marine and terrestrial age according to Marine20 and Shcal20, respectively (Heaton et al. 2020; Hogg et al. 2020). Then I calculated the difference between each pair under bootstrapping suggested by Russell et al. 2011. After that, I reduced the pool data from 185 to 96 samples for decreasing the overweight of repeated data belonging to the same stratigraphic unit. So that, I solved this issue, using error weight means deleting extra values and reducing error calibration.
 
 I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 180 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age; $\Delta R$ : estimated value and its uncertainty.
 
-Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 96 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes, using the error weight mean for decreased error propagation.
+Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 96 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes like previous work(Ortlieb et al. 2011; Carré et al. 2016), using the "error weight mean" for decreased error propagation.
 
 ## Principal outcomes
 
@@ -99,7 +99,7 @@ At the state above the latitudinal pattern of $\Delta R$ split off in two zones 
 
 In this picture, I show the estimation of $\Delta R$  in boxes for two zones. There are four boxes (two orange and two purple) boxes of $\Delta R$ that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Cal Kyr BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Cal Kyr BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Cal Kyr BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Cal Kyr BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age interval.
 
-Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it were not plotted to avoid overlapping.
+Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it were not plotted to avoid overlapping in the picture.
 
 ## Discussion
 
@@ -117,7 +117,7 @@ Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(
 
 ## Conclusions
 
-The spatial variability of $\Delta R$ revealed oceanographic changes in associated origin CCW or enhanced upwelling regionally off South-eastern Pacific and climatic changes inferred river discharge by precipitation during Holocene. A relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
+The spatial variability of $\Delta R$ revealed thee aspect: 1) Oceanographic changes in associated origin CCW, 2) Enhanced upwelling regionally off South-eastern Pacific, and 3) Climatic changes inferred river discharge by precipitation during Holocene. A relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
 
 Future research should include more variables (e.g  marine $CO_2$ off Peru to Chile)to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
