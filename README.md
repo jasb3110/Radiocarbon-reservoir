@@ -92,7 +92,7 @@ Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according 
 
 ### Local MRA estimated under Marine20
 
-At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, ortlieb et al. 2011).
+At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, Ortlieb et al. 2011).
 |                                                     [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                     |
 |:----------------------------------------------------------------------:|
 | *Figure 4. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
