@@ -873,8 +873,8 @@ reservoir=ggplot(data =toplot)+
                    x=toplot$min.age.ortlieb[4],
                    xend=toplot$max.age.ortlieb[4]))+
   
-  annotate("text",x=2500,y=1500,label="\u0394MRA (Marine20 - Shcal20)", size = 8,col="red")+
-  annotate("text",x=2500,y=1300,label="\u0394MRA (Marine13 - Shcal13)", size = 8,col="gray")+
+  annotate("text",x=2500,y=1500,label="MRA (Marine20 - Shcal20)", size = 8,col="red")+
+  annotate("text",x=2500,y=1300,label="MRA (Marine13 - Shcal13)", size = 8,col="gray")+
   annotate("text",x=2500,y=1100,label="\u0394R(t) on 14 to 24°S", size = 8,col="gray80")+
 
   scale_x_continuous(guide = "axis_minor",breaks =scales::pretty_breaks(n = 5),
@@ -943,8 +943,8 @@ geom_rect(aes(xmin = toplot$min.age.carre[1],
                    x=toplot$min.age.carre[4],
                    xend=toplot$max.age.carre[4]))+
 
-  annotate("text",x=2500,y=1500,label="\u0394MRA (Marine20 - Shcal20)", size = 8,col="red")+
-  annotate("text",x=2500,y=1300,label="\u0394MRA (Marine13 - Shcal13)", size = 8,col="gray80")+
+  annotate("text",x=2500,y=1500,label="MRA (Marine20 - Shcal20)", size = 8,col="red")+
+  annotate("text",x=2500,y=1300,label="MRA (Marine13 - Shcal13)", size = 8,col="gray80")+
   annotate("text",x=2500,y=1100,label="\u0394R(t) on  0 to 24°S", size = 8,col=a2)+
   annotate("text",x=2500,y=900 ,label="\u0394R(t) on 24 to 32°S", size = 8,col=a3)+
   
@@ -1035,8 +1035,8 @@ reservoir3=ggplot(data =toplot)+
     #               x=toplot$min.age.solis[6],
      #              xend=toplot$max.age.solis[6]))+
 
-  annotate("text",x=2500,y=1500,label="\u0394MRA (Marine20 - Shcal20)", size = 8,col="red")+
-  annotate("text",x=2500,y=1300,label="\u0394MRA (Marine13 - Shcal13)", size = 8,col="gray80")+
+  annotate("text",x=2500,y=1500,label="MRA (Marine20 - Shcal20)", size = 8,col="red")+
+  annotate("text",x=2500,y=1300,label="MRA (Marine13 - Shcal13)", size = 8,col="gray80")+
   annotate("text",x=2500,y=1100,label="\u0394R(t) on  0 to 22°S", size = 8,col=a5)+
   annotate("text",x=2500,y=900 ,label="\u0394R(t) on 22 to 50°S", size = 8,col=a6)+
 
