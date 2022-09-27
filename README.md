@@ -99,7 +99,7 @@ At the state above the latitudinal pattern of $\Delta R$ split off in two zones 
 
 In this picture, I show the estimation of $\Delta R$  in boxes for two zones. There are four boxes (two orange and two purple) boxes of $\Delta R$ that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Cal Kyr BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Cal Kyr BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Cal Kyr BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Cal Kyr BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age interval.
 
-Additionally, We estimated $\Delta R$ the last 100 years off coastal line 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it were not plotted to avoid overlapping in the picture.
+Additionally, We also estimated $\Delta R$ the last 100 years for 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it was not plotted to avoid overlapping in the picture.
 
 ## Discussion
 
