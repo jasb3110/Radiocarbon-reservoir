@@ -47,7 +47,7 @@ At stated above the latitudinal gradient of $\Delta R$ also could explained for 
 
 Recently, Many researchers proper a new calibration curve base on MRA (Marine20) is to define the difference, at the Calendar age, between $^{14}C$ age of dissolved inorganic carbon (DIC) in the mixed ocean surface layer at that location and the $^{14}C$ age of $CO_2$ in the Northern or Southern Hemispheric atmosphere (Heaton, 2020). Also, this work mentioned if you were to calibrate with Marine20 you would update $\Delta R$ at your studying zone.
 
-Marine20 is improver than Marine13 during 55 to 10.5 kyrs BP, through usage BYCYCLE model which incorporate global-scale paleoclimate and carbon cycle changes that migth influence oceanic $^{14}C$ depletion as currently possible (Heaton et al. 2022). Difference of Marine20 and Marine13 in magnitude is small during 14.2 Kyrs to now and recent past, you easy manner would calcute $\Delta R$ of Marine 20 if $\Delta R$ of Marine13 were add up \~150 $^{14}C$ yrs (Heaton et al. 2022). 
+Marine20 is improver than Marine13 during 55 to 10.5 kyrs BP, through usage BYCYCLE model which incorporate global-scale paleoclimate and carbon cycle changes that migth influence oceanic $^{14}C$ depletion as currently possible (Heaton et al. 2022). Difference of Marine20 and Marine13 in magnitude is small during 14.2 Kyrs to now and recent past, you easy manner would calculate $\Delta R$ of Marine 20 if $\Delta R$ of Marine13 were add up \~150 $^{14}C$ yrs (Heaton et al. 2022). 
 
 Therefore, It is important to estimate $\Delta R$ for dating tools that estimate a radiocarbon age. In this work, I update values of $\Delta R$ according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the $\Delta R$ relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age), and whether the hypotheses that explain previous works, still would validate with Marine20.
 
@@ -127,7 +127,7 @@ Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(
 
 ## Conclusions
 
-The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene.Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
+The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
 
 Future research should include more variables (e.g  marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
