@@ -21,13 +21,11 @@ output:
 
 Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism has different $^{14}C$ ages because the ocean is a source of $^{14}C$ , and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes of water mass origin and circulation.
 
-In particular case for Peru and Chile coastal, MRE could due to upwelling intensity, the origin of the upwelled waters, therefore it  needs to be considered while dating marine sediment cores.  
+In particular case for Peru and Chile coastal, MRE could due to upwelling intensity, the origin of the upwelled waters, therefore it  needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. 
 
-Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. 
+Here we compare the difference of marine to terrestrial curve is called marine reservoir ages (MRA),between previous version with the new calibration curve based on 185 published data (marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S). We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S. 
 
-Here we compare the marine reservoir ages (MRA) obtained from the previous version with the new calibration curve based on 185 published, marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S. We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S . 
-
-These observations suggest that oceanic circulation is a key factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve is up to \~400 years higher compared to the MRA obtained using the previous calibration curve, indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised and updated.
+These observations suggest that forming water mass, upwelling process and river discharge were a keys factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve(Marine20) is up to \~400 years higher compared to the MRA obtained using the previous calibration curve(Marine13), indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised and updated.
 
 ## Introduction
 
@@ -51,7 +49,7 @@ Therefore, It is important to estimate $\Delta R$ for dating tools that estimate
 
 ## Materials and methods
 
-This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs Marine-terrestrial samples of different organic materials (wood, shell and others organic remains)obtained in the South-Eastern Pacific Ocean (SEPO).Bellow, I attached the input data set.
+This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs Marine-terrestrial samples of different organic materials (wood, shell and others organic remains)obtained in the South-Eastern Pacific Ocean (SEPO) .Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
@@ -128,7 +126,7 @@ Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(
 The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene.
 Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
 
-Future research should include more variables (e.g  marine $CO_2$ off Peru to Chile)to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
+Future research should include more variables (e.g  marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
 ## Reference
 
