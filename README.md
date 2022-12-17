@@ -118,7 +118,7 @@ During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-5
 
 Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S probably interpreted zone of Permanent upwelling moved northward during On Holocene. Also, it can explain how to increase the input of fresh water which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
 
-Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP could be explained which sediments weren´t recorded in marine sediment for biogeochemistry process for instance: poor preservation of organic matter, low sedimentation rate and high coastal erosion due marine transgression.
+Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP could be explained which researchers didn´t find sediments yet, belonging this period-time or sediments weren´t recorded in marine sediment due to biogeochemistry process for instance: poor preservation of organic matter, low sedimentation rate and high coastal erosion due marine transgression.
 
 ## Conclusions 
 The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using EWM and bootstrapping than previous estimations.
