@@ -124,7 +124,7 @@ sediments weren´t recorded in marine sediment due biogeochemistry process for i
 ## Conclusions 
 The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using EWM and bootstrapping than previous estimations.
 
-Future research should include more variables (e.g marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
+Future research should include more variables (e.g marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best $^{14}C$ ocean-atmosphere model.
 
 ## Reference
 -   Alves, E. Q., Macario, K., Ascough, P., & Bronk Ramsey, C. (2018). The Worldwide Marine Radiocarbon Reservoir Effect: Definitions, Mechanisms, and Prospects. Reviews of Geophysics, 56(1), 278--305. <https://doi.org/10.1002/2017RG000588>
