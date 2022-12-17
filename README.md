@@ -17,17 +17,17 @@ output:
 -   [References](#references)
 -   [R code](#r-code)
 
-## Abstract
+## Abstract {#abstract}
 
 Radiocarbon ( $^{14}C$ ) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediments cores. However, dating marine sediment records have an important particularity, given that contemporaneous terrestrial and marine organism has different $^{14}C$ ages because the ocean is a source of $^{14}C$ , and thus marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called marine reservoir effect (MRE), it varies in space and time as a function of changes of water mass origin and circulation.
 
-In particular case for Peru and Chile coastal, MRE could due to upwelling intensity, the origin of the upwelled waters, therefore it  needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation. 
+In particular case for Peru and Chile coastal, MRE could due to upwelling intensity, the origin of the upwelled waters, therefore it needs to be considered while dating marine sediment cores. Recently an internationally agreed marine radiocarbon age calibration curve (Marine20) was released and provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP, thus serving as a baseline for regional oceanic variation.
 
-Here we compare the difference of marine to terrestrial curve is called marine reservoir ages (MRA),between previous version with the new calibration curve based on 185 published data (marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S). We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S. 
+Here we compare the difference of marine to terrestrial curve is called marine reservoir ages (MRA),between previous version with the new calibration curve based on 185 published data (marine-terrestrial pairs samples obtained in the Eastern Pacific Ocean between 0 to 50°S). We applied a bootstrapping method and the output data were sorted for spatial position and time period. Then, we calculated the MRA by error propagation and generalized additive model. According to our results, the MRA shows a pattern of time-space distribution at millennial time scales, with larger MRA ages north of 22°S.
 
 These observations suggest that forming water mass, upwelling process and river discharge were a keys factor that modulated MRA during the last 12 Kyr in the Eastern Tropical South Pacific. Moreover, the estimated MRA using the new radiocarbon age calibration curve(Marine20) is up to \~400 years higher compared to the MRA obtained using the previous calibration curve(Marine13), indicating that the timing of paleoceanographic events based on marine sediment records needs to be revised and updated.
 
-## Introduction
+## Introduction {#introduction}
 
 Radiocarbon-14 ( $^{14}C$ ) has produced by nuclear reaction due to cosmic rays in the upper atmosphere \~15km. Then $^{14}C$ is reacted with molecular oxygen to generate heavy carbon dioxide that is assimilated by primary producers via photosynthesis, reaching higher trophic levels via the food chain (Alves et al. 2018).
 
@@ -47,11 +47,11 @@ At stated above the latitudinal gradient of $\Delta R$ also could explained for 
 
 Recently, Many researchers proper a new calibration curve base on MRA (Marine20) is to define the difference, at the Calendar age, between $^{14}C$ age of dissolved inorganic carbon (DIC) in the mixed ocean surface layer at that location and the $^{14}C$ age of $CO_2$ in the Northern or Southern Hemispheric atmosphere (Heaton, 2020). Also, this work mentioned if you were to calibrate with Marine20 you would update $\Delta R$ at your studying zone.
 
-Marine20 is improver than Marine13 during 55 to 10.5 kyrs BP, through usage BYCYCLE model which incorporate global-scale paleoclimate and carbon cycle changes that migth influence oceanic $^{14}C$ depletion as currently possible (Heaton et al. 2022). Difference of Marine20 and Marine13 in magnitude is small during 14.2 Kyrs to now and recent past, you easy manner would calculate $\Delta R$ of Marine 20 if $\Delta R$ of Marine13 were add up \~150 $^{14}C$ yrs (Heaton et al. 2022). 
+Marine20 is improver than Marine13 during 55 to 10.5 kyrs BP, through usage BYCYCLE model which incorporate global-scale paleoclimate and carbon cycle changes that migth influence oceanic $^{14}C$ depletion as currently possible (Heaton et al. 2022). Difference of Marine20 and Marine13 in magnitude is small during 14.2 Kyrs to now and recent past, you easy manner would calculate $\Delta R$ of Marine 20 if $\Delta R$ of Marine13 were add up \~150 $^{14}C$ yrs (Heaton et al. 2022).
 
 Therefore, It is important to estimate $\Delta R$ for dating tools that estimate a radiocarbon age. In this work, I update values of $\Delta R$ according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the $\Delta R$ relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age), and whether the hypotheses that explain previous works, still would validate with Marine20.
 
-## Materials and methods
+## Materials and methods {#materials-and-methods}
 
 This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs Marine-terrestrial samples of different organic materials (wood, shell and others organic remains)obtained in the South-Eastern Pacific Ocean (SEPO) .Bellow, I attached the input data set.
 
@@ -65,24 +65,27 @@ I sorted of data (without repeated data) for period time: Early Holocene (EH) wa
 
 Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 96 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes like previous work(Ortlieb et al. 2011; Carré et al. 2016), using the "error weight mean" for decreased error propagation.
 
-## Principal outcomes
+## Principal outcomes {#principal-outcomes}
 
 In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=96). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
 
 ### Principal component analysis (PCA)
 
-|[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)|
-|:----------------------------------------------------------------------:|
-|*Figure 1. Biplot of Principal component of data (n=96)*|
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true) |
++:=======================================================================================================================================================:+
+| *Figure 1. Biplot of Principal component of data (n=96)*                                                                                                |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 PC1 (∼29%) is interpreted as signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$ and calibrated age. PC2 (∼23%) is interpreted as signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(pca)). Hence, it can be said that the seven variables represent the variability of the data. My first assumption is to the difference in species or organic remains is not outstanding for estimating $\Delta R$.
 
-
 ### Clusters of Local MRA for period time
 
-|[![Figure 2.](plotellipses.period.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)|
-|:----------------------------------------------------------------------:|
-|*Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)*|
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [![Figure 2.](plotellipses.period.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/plotellipses.period.png?raw=true)           |
++:===================================================================================================================================================================================:+
+| *Figure 2. Concentration ellipses for the categories of period time. CWP:Current warming period (black), LH:Late Holocene (red), MH:Mid Holocene (green), EH:Early Holocene (blue)* |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 According to periods, It could be no evidence of a temporal effect on the $\Delta R$ during the Holocene except for CWP. Therefore, I noticed a small difference between the periods [(fig. 2)](#Clusters-of-mra-for-period-time). Therefore, we didn't use period-time as an input variable in the model which will explain forward.
 
@@ -92,72 +95,72 @@ Some past works showed the difference in latitudinal of $\Delta R$ off Peru to C
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/3b3b58adbce85c25b358e8054096a8717a34649d/GAM%20outcome%20%20table.png?raw=true)
 
-Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.83 and desviance explained is \~85%.  hence, this GAM represents the variability of MRA significantly.
+Therefore, I use GAM to find out about the spatial & temporal effect on MRA off Peru & Chile. I built a simple GAM regarding the effects of individual variables and its interactions (Wood, 2017). This model has adjusted Tweedie distribution with the logarithm link function and uses a cubic spline smooth for each variable. According to the output of GAM, this model has adjusted $R^{2}$ is 0.83 and desviance explained is \~85%. hence, this GAM represents the variability of MRA significantly.
 
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png) |
-|:----------------------------------------------------------------------:|
-| *Figure 3. Latitudinal distribution* $\Delta R$ *, inferred for GAM, off Peru to Chile the last 12 Kyr BP*|
++:======================================================================================================================================================================================:+
+| *Figure 3. Latitudinal distribution* $\Delta R$ *, inferred for GAM, off Peru to Chile the last 12 Kyr BP*                                                                             |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern which could mean gradient zone: 17 to 27°S. My second assumption is frontier is 22°S which mark off two zones: first (0 to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
 
-### Local MRA estimated under Marine20
+### $\Delta R$ estimated under Marine20
 
-At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, Ortlieb et al. 2011).
-|                                                     [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)                                                     |
-|:----------------------------------------------------------------------:|
-| *Figure 4. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* |
+At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, Ortlieb et al. 2011). \| [![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true) \| \|:----------------------------------------------------------------------:\| \| *Figure 4. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.* \|
 
-In this picture, I show the estimation of $\Delta R$  in boxes for two zones. There are four boxes (two orange and two purple) boxes of $\Delta R$ that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Cal Kyr BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Cal Kyr BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Cal Kyr BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Cal Kyr BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age interval.
+In this picture, I show the estimation of $\Delta R$ in boxes for two zones. There are four boxes (two orange and two purple) boxes of $\Delta R$ that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Cal Kyr BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Cal Kyr BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Cal Kyr BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Cal Kyr BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age interval.
 
 Additionally, We also estimated $\Delta R$ the last 100 years for 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it was not plotted to avoid overlapping in the picture.
 
-## Discussion
+## Discussion {#discussion}
 
-|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|
-|:----------------------------------------------------------------------:|
-| *Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated* $\Delta R$ *by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box*|
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)                                                                                                                                                                                                                                                |
++:=====================================================================================================================================================================================================================================================================================================================================================================================================:+
+| *Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated* $\Delta R$ *by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box* |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 This animation showed comparative principal outcomes of previous works, and this work[(fig. 5)](#discussion). The boxes of $\Delta R$ are the same pattern as the boxes proposal for Carré et al. 2016. During EH, the magnitude of $\Delta R$ was higher in the box estimated with Marine20 than Marine13 which were estimated for 0-22°s ( \~400 years) and 22-50°S (\~100 years). In the same way, during the Mid to Late Holocene, The difference of $\Delta R$ can repeat for 0-22°S ( \~50 years) and 22-50°S (\~100 years).
 
 The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ deficit average according to Marine13 is \~300 years from 0-10.5 Cal Kyr BP (Reimer et al. 2013) and according to Marine20 is \~500 years from 0-11.6 Cal Kyr BP (Heaton et al. 2020). But $\Delta R$ off 0-22° was estimated during EH which exhibited an excess of \~200 years may due to MRA estimate in Marine20 is coupled to atmospheric $^{14}C$ and not Marine13 (Heaton et al. 2020).
 
-During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-50°S (\~1000 years), also is looking up in this work [(fig. 4)](#local-mra-estimated-under-marine20). The latitudinal gradient of $\Delta R$ likely was modulated for the minor contribution of  SAMW to EUC and ESSW , has low $\Delta^{14}C$, in forming CCW and/or increase upwelling during EH (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004). 
+During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-50°S (\~1000 years), also is looking up in this work [(fig. 4)](#local-mra-estimated-under-marine20). The latitudinal gradient of $\Delta R$ likely was modulated for the minor contribution of SAMW to EUC and ESSW , has low $\Delta^{14}C$, in forming CCW and/or increase upwelling during EH (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004).
 
 Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S probably interpreted zone of Permanent upwelling moved northward during On Holocene. Also, it can explain how to increase the input of fresh water which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
 
-## Conclusions
+## Conclusions {#conclusions}
 
 The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
 
-Future research should include more variables (e.g  marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
+Future research should include more variables (e.g marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
 ## Reference
 
-- Alves, E. Q., Macario, K., Ascough, P., & Bronk Ramsey, C. (2018). The Worldwide Marine Radiocarbon Reservoir Effect: Definitions, Mechanisms, and Prospects. Reviews of Geophysics, 56(1), 278–305. https://doi.org/10.1002/2017RG000588
-- Broecker, W. S., Peng, T. H., Ostlund, G., & Minze, S. (1985). The distribution of bomb Radiocarbon in the ocean. Journal of Geophysical Research, 90(C4), 6953 to 6970. https://doi.org/http://dx.doi.org/10.1029/JC090iC04p06953
--Carré, M., Jackson, D., Maldonado, A., Chase, B. M., & Sachs, J. P. (2016). Variability of 14C reservoir age and air–sea flux of CO2 in the Peru–Chile upwelling region during the past 12,000years. ELSERVIER Quaternary Research, 7. https://doi.org/10.1016/j.yqres.2015.12.002
-- Etayo-Cadavid, M. F., Andrus, C. F. T., Jones, K. B., & Hodgins, G. W. L. (2019). Subseasonal variations in marine reservoir age from pre-bomb Donax obesulus and Protothaca asperrima shell carbonate. Chemical Geology, 526(June), 110–116. https://doi.org/10.1016/j.chemgeo.2018.07.001
-- Fontugne, M., Carré, M., Bentaleb, I., Julien, M., & Lavallée, D. (2004). Radiocarbon reservoir age variations in the south Peruvian upwelling during the Holocene. Radiocarbon, 46(2), 531–537. https://doi.org/10.1017/S003382220003558X
-- Guiñez, M., Valdés, J., Sifeddine, A., Boussafir, M., & Dávila, P. M. (2014). Anchovy population and ocean-climatic fluctuations in the Humboldt Current System during the last 700 years and their implications. Palaeogeography, Palaeoclimatology, Palaeoecology, 415, 210–224. https://doi.org/10.1016/j.palaeo.2014.08.026
-- Gutiérrez, D., Sifeddine, A., Field, D. B., Ortlieb, L., Vargas, G., Chávez, F., Velazco, F., Ferreira, V., Tapia, P., Salvatteci, R., Boucher, H., Morales, M. C., Valdés, J., Reyss, J.-L., Campusano, A., Boussafir, M., Mandeng-Yogo, M., García, M., & Baumgartner, T. (2009). Rapid reorganization in ocean biogeochemistry off Peru towards the end of the Little Ice Age. Biogeosciences Discussions, 5(5), 3919–3943. https://doi.org/10.5194/bgd-5-3919-2008
-- Haslett, J., & Parnell, A. (2008). A simple monotone process with application to radiocarbon-dated depth chronologies. Journal of the Royal Statistical Society. Series C: Applied Statistics, 57(4), 399–418. https://doi.org/10.1111/j.1467-9876.2008.00623.x
-- Heaton, T. J., Köhler, P., Butzin, M., Bard, E., Reimer, R. W., Austin, W. E. N., Bronk Ramsey, C., Grootes, P. M., Hughen, K. A., Kromer, B., Reimer, P. J., Adkins, J., Burke, A., Cook, M. S., Olsen, J., & Skinner, L. C. (2020). Marine20—The Marine Radiocarbon Age Calibration Curve (0–55,000 cal BP). Radiocarbon, 62(4), 779–820. https://doi.org/10.1017/rdc.2020.68
-- Heaton, T. J., Bard, E., Ramsey, C. B., Hughen, K. A., Köhler, P., Reimer, P. J., Butzin, M., & Hatté, C. (2022). A RESPONSE TO COMMUNITY QUESTIONS ON THE MARINE20 RADIOCARBON AGE CALIBRATION CURVE: MARINE RESERVOIR AGES AND THE CALIBRATION OF 14C SAMPLES FROM THE OCEANS. Radiocarbon, 00(00), 1–27. https://doi.org/https://doi.org/10.1017/RDC.2022.66
-- Hogg, A. G., Heaton, T. J., Hua, Q., Palmer, J. G., Turney, C. S. M., Southon, J., Bayliss, A., Blackwell, P. G., Boswijk, G., Bronk Ramsey, C., Pearson, C., Petchey, F., Reimer, P., Reimer, R., & Wacker, L. (2020). SHCal20 Southern Hemisphere Calibration, 0-55,000 Years cal BP. Radiocarbon, 62(4), 759–778. https://doi.org/10.1017/RDC.2020.59
-- Hua, Q., Webb, G. E., Zhao, J. xin, Nothdurft, L. D., Lybolt, M., Price, G. J., & Opdyke, B. N. (2015). Large variations in the Holocene marine radiocarbon reservoir effect reflect ocean circulation and climatic changes. Earth and Planetary Science Letters, 422, 33–44. https://doi.org/10.1016/j.epsl.2015.03.049
-- Ingram, B. L., & Southon, J. R. (1996). Reservoir ages in eastern Pacific coastal and estuarine waters. Radiocarbon, 38(3), 573–582. https://doi.org/10.1017/S0033822200030101
-- Jones, K. B., Hodgins, G. W. L., Dettman, D. L., Andrus, C. F. T., Nelson, A., & Etayo-Cadavid, M. F. (2007). Seasonal variations in Peruvian marine reservoir age from pre-bomb Argopecten purpuratus shell carbonate. Radiocarbon, 49(2), 877–888. https://doi.org/10.1017/S0033822200042740
-- Kennett, D. J., Ingram, B. L., Southon, J. R., & Wise, K. (2002). Differences in 14C age between stratigraphically associated charcoal and marine shell from the Archaic Period site of Kilometer 4, southern Peru: Old wood or old water? Radiocarbon, 44(1), 53–58. https://doi.org/10.1017/S0033822200064663
-- Merino-Campos, V., De Pol-Holz, R., Southon, J., Latorre, C., & Collado-Fabbri, S. (2019). Marine radiocarbon reservoir age along the chilean continental margin. Radiocarbon, 61(1), 195–210. https://doi.org/10.1017/RDC.2018.81
-- Ortlieb, L., Vargas, G., & Saliège, J. F. (2011). Marine radiocarbon reservoir effect along the northern Chile-southern Peru coast (14-24°S) throughout the Holocene. Quaternary Research, 75(1), 91–103. https://doi.org/10.1016/j.yqres.2010.07.018
-- Owen, B. D. (2002). Marine carbon reservoir age estimates for the far south coast of Peru. Radiocarbon, 44(3), 701–708. https://doi.org/10.1017/S003382220003215X
-- Taylor, A. R. E., & Berger, R. (1967). Radiocarbon Content of Marine Shells from the Pacific Coasts of Central and South America. Science, 158(3805), 1180–1182.
-- Toggweiler, J. R., K. Dixon, & Broecker, W. S. (1991). The Peru Upwelling and Ventilatation of the South Pacific Thermocline. New York, 96(9), 1–31. https://doi.org/https://doi.org/10.1029/91JC02063
-- Reimer, P., Bard, E., Bayliss, A., Beck, J. W., Blackwell, P. G., Ramsey, C. B., Buck, C. E., Cheng, H., Edwards, R. L., Friedrich, M., Grootes, P. M., Guilderson, T. P., Haflidason, H., Hajdas, I., Hatté, C., Heaton, T. J., Hoffmann, D. L., Hogg, A. G., Hughen, K. A., … Plicht, J. van der. (2013). IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP. Radiocarbon, 55(4), 1869–1887. https://doi.org/10.2458/azu_js_rc.55.16947
-- Russell, N., Cook, G. T., Ascough, P. L., Scott, E. M., & Dugmore, A. J. (2011). Examining the inherent variability in ΔR: New methods of presenting ΔR values and implications for MRE studies. Radiocarbon, 53(2), 277–288. https://doi.org/10.1017/s003382220005654x
-- Wood, S.N. (2017). Generalized Additive Models: An Introduction with R (2nd ed.). Chapman and Hall/CRC. https://doi.org/10.1201/9781315370279
+-   Alves, E. Q., Macario, K., Ascough, P., & Bronk Ramsey, C. (2018). The Worldwide Marine Radiocarbon Reservoir Effect: Definitions, Mechanisms, and Prospects. Reviews of Geophysics, 56(1), 278--305. <https://doi.org/10.1002/2017RG000588>
+-   Broecker, W. S., Peng, T. H., Ostlund, G., & Minze, S. (1985). The distribution of bomb Radiocarbon in the ocean. Journal of Geophysical Research, 90(C4), 6953 to 6970. <https://doi.org/http://dx.doi.org/10.1029/JC090iC04p06953> -Carré, M., Jackson, D., Maldonado, A., Chase, B. M., & Sachs, J. P. (2016). Variability of 14C reservoir age and air--sea flux of CO2 in the Peru--Chile upwelling region during the past 12,000years. ELSERVIER Quaternary Research, 7. <https://doi.org/10.1016/j.yqres.2015.12.002>
+-   Etayo-Cadavid, M. F., Andrus, C. F. T., Jones, K. B., & Hodgins, G. W. L. (2019). Subseasonal variations in marine reservoir age from pre-bomb Donax obesulus and Protothaca asperrima shell carbonate. Chemical Geology, 526(June), 110--116. <https://doi.org/10.1016/j.chemgeo.2018.07.001>
+-   Fontugne, M., Carré, M., Bentaleb, I., Julien, M., & Lavallée, D. (2004). Radiocarbon reservoir age variations in the south Peruvian upwelling during the Holocene. Radiocarbon, 46(2), 531--537. <https://doi.org/10.1017/S003382220003558X>
+-   Guiñez, M., Valdés, J., Sifeddine, A., Boussafir, M., & Dávila, P. M. (2014). Anchovy population and ocean-climatic fluctuations in the Humboldt Current System during the last 700 years and their implications. Palaeogeography, Palaeoclimatology, Palaeoecology, 415, 210--224. <https://doi.org/10.1016/j.palaeo.2014.08.026>
+-   Gutiérrez, D., Sifeddine, A., Field, D. B., Ortlieb, L., Vargas, G., Chávez, F., Velazco, F., Ferreira, V., Tapia, P., Salvatteci, R., Boucher, H., Morales, M. C., Valdés, J., Reyss, J.-L., Campusano, A., Boussafir, M., Mandeng-Yogo, M., García, M., & Baumgartner, T. (2009). Rapid reorganization in ocean biogeochemistry off Peru towards the end of the Little Ice Age. Biogeosciences Discussions, 5(5), 3919--3943. <https://doi.org/10.5194/bgd-5-3919-2008>
+-   Haslett, J., & Parnell, A. (2008). A simple monotone process with application to radiocarbon-dated depth chronologies. Journal of the Royal Statistical Society. Series C: Applied Statistics, 57(4), 399--418. <https://doi.org/10.1111/j.1467-9876.2008.00623.x>
+-   Heaton, T. J., Köhler, P., Butzin, M., Bard, E., Reimer, R. W., Austin, W. E. N., Bronk Ramsey, C., Grootes, P. M., Hughen, K. A., Kromer, B., Reimer, P. J., Adkins, J., Burke, A., Cook, M. S., Olsen, J., & Skinner, L. C. (2020). Marine20---The Marine Radiocarbon Age Calibration Curve (0--55,000 cal BP). Radiocarbon, 62(4), 779--820. <https://doi.org/10.1017/rdc.2020.68>
+-   Heaton, T. J., Bard, E., Ramsey, C. B., Hughen, K. A., Köhler, P., Reimer, P. J., Butzin, M., & Hatté, C. (2022). A RESPONSE TO COMMUNITY QUESTIONS ON THE MARINE20 RADIOCARBON AGE CALIBRATION CURVE: MARINE RESERVOIR AGES AND THE CALIBRATION OF 14C SAMPLES FROM THE OCEANS. Radiocarbon, 00(00), 1--27. <https://doi.org/https://doi.org/10.1017/RDC.2022.66>
+-   Hogg, A. G., Heaton, T. J., Hua, Q., Palmer, J. G., Turney, C. S. M., Southon, J., Bayliss, A., Blackwell, P. G., Boswijk, G., Bronk Ramsey, C., Pearson, C., Petchey, F., Reimer, P., Reimer, R., & Wacker, L. (2020). SHCal20 Southern Hemisphere Calibration, 0-55,000 Years cal BP. Radiocarbon, 62(4), 759--778. <https://doi.org/10.1017/RDC.2020.59>
+-   Hua, Q., Webb, G. E., Zhao, J. xin, Nothdurft, L. D., Lybolt, M., Price, G. J., & Opdyke, B. N. (2015). Large variations in the Holocene marine radiocarbon reservoir effect reflect ocean circulation and climatic changes. Earth and Planetary Science Letters, 422, 33--44. <https://doi.org/10.1016/j.epsl.2015.03.049>
+-   Ingram, B. L., & Southon, J. R. (1996). Reservoir ages in eastern Pacific coastal and estuarine waters. Radiocarbon, 38(3), 573--582. <https://doi.org/10.1017/S0033822200030101>
+-   Jones, K. B., Hodgins, G. W. L., Dettman, D. L., Andrus, C. F. T., Nelson, A., & Etayo-Cadavid, M. F. (2007). Seasonal variations in Peruvian marine reservoir age from pre-bomb Argopecten purpuratus shell carbonate. Radiocarbon, 49(2), 877--888. <https://doi.org/10.1017/S0033822200042740>
+-   Kennett, D. J., Ingram, B. L., Southon, J. R., & Wise, K. (2002). Differences in 14C age between stratigraphically associated charcoal and marine shell from the Archaic Period site of Kilometer 4, southern Peru: Old wood or old water? Radiocarbon, 44(1), 53--58. <https://doi.org/10.1017/S0033822200064663>
+-   Merino-Campos, V., De Pol-Holz, R., Southon, J., Latorre, C., & Collado-Fabbri, S. (2019). Marine radiocarbon reservoir age along the chilean continental margin. Radiocarbon, 61(1), 195--210. <https://doi.org/10.1017/RDC.2018.81>
+-   Ortlieb, L., Vargas, G., & Saliège, J. F. (2011). Marine radiocarbon reservoir effect along the northern Chile-southern Peru coast (14-24°S) throughout the Holocene. Quaternary Research, 75(1), 91--103. <https://doi.org/10.1016/j.yqres.2010.07.018>
+-   Owen, B. D. (2002). Marine carbon reservoir age estimates for the far south coast of Peru. Radiocarbon, 44(3), 701--708. <https://doi.org/10.1017/S003382220003215X>
+-   Taylor, A. R. E., & Berger, R. (1967). Radiocarbon Content of Marine Shells from the Pacific Coasts of Central and South America. Science, 158(3805), 1180--1182.
+-   Toggweiler, J. R., K. Dixon, & Broecker, W. S. (1991). The Peru Upwelling and Ventilatation of the South Pacific Thermocline. New York, 96(9), 1--31. <https://doi.org/https://doi.org/10.1029/91JC02063>
+-   Reimer, P., Bard, E., Bayliss, A., Beck, J. W., Blackwell, P. G., Ramsey, C. B., Buck, C. E., Cheng, H., Edwards, R. L., Friedrich, M., Grootes, P. M., Guilderson, T. P., Haflidason, H., Hajdas, I., Hatté, C., Heaton, T. J., Hoffmann, D. L., Hogg, A. G., Hughen, K. A., ... Plicht, J. van der. (2013). IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0--50,000 Years cal BP. Radiocarbon, 55(4), 1869--1887. <https://doi.org/10.2458/azu_js_rc.55.16947>
+-   Russell, N., Cook, G. T., Ascough, P. L., Scott, E. M., & Dugmore, A. J. (2011). Examining the inherent variability in ΔR: New methods of presenting ΔR values and implications for MRE studies. Radiocarbon, 53(2), 277--288. <https://doi.org/10.1017/s003382220005654x>
+-   Wood, S.N. (2017). Generalized Additive Models: An Introduction with R (2nd ed.). Chapman and Hall/CRC. <https://doi.org/10.1201/9781315370279>
 
-## R code
+## R code {#r-code}
 
 Bellow I attached a R-script. [Contact Us](mailto:solisbenites.jose@gmail.com) here, if you consider to give opinions, suggestions and questions.
 
