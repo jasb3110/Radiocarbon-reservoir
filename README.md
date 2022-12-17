@@ -103,7 +103,7 @@ At the state above the latitudinal pattern of $\Delta R$ split off in two zones 
 
 In this picture, I show the estimation of $\Delta R$ in boxes for two zones. There are four boxes (two orange and two purple) boxes of $\Delta R$ that have belonged to different latitudinal positions and periods of time (orange boxes: latitude 0-22°S, 10.6 to 5.8 Cal Kyr BP [11.2 to 6.4 Kyr BP] and 5.6 to 0.3 Cal Kyr BP [6.2 to 0.9 Kyr BP]; purple boxes: latitude 22-50°S, 12 to 6.5 Cal Kyr BP [12.6 to 7.05 Kyr BP] and 3.4 to 0.1 Cal Kyr BP [4 to 0.7 Kyr BP]). where the values with "[ ]" represents Conventional age interval.
 
-Additionally, We also estimated $\Delta R$ the last 100 years for 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, it was not plotted to avoid overlapping in the picture.
+Additionally, We also estimated $\Delta R$ the last 100 years for 0-22°S and 22-50°S were 140±5 and 162±6, respectively. However, boxes of CWP was not plotted to avoid overlapping in the picture.
 
 ## Discussion
 |[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/8bddc9b0f2d8f839ca2d4826f47d9050d49384aa/animation.gif?raw=true)|                                  
@@ -117,6 +117,8 @@ The difference of $\Delta R$ could be partially explained for $\Delta^{14}C$ def
 During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-50°S (\~1000 years), also is looking up in this work [(fig. 4)](#local-mra-estimated-under-marine20). The latitudinal gradient of $\Delta R$ likely was modulated for the minor contribution of SAMW to EUC and ESSW , has low $\Delta^{14}C$, in forming CCW and/or increase upwelling during EH (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004).
 
 Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S probably interpreted zone of Permanent upwelling moved northward during On Holocene. Also, it can explain how to increase the input of fresh water which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
+
+Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP could be explained which sediments weren´t recorded in marine sediment for biogeochemistry process for instance: poor preservation of organic matter, low sedimentation rate and high coastal erosion due marine transgression.
 
 ## Conclusions 
 The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
