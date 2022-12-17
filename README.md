@@ -4,7 +4,7 @@ output:
   pdf_document: default
 ---
 
-# New estimations of delta R values for the South-eastern Pacific obtained from Marine20
+# New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
 
 ## Contents
 
@@ -50,7 +50,7 @@ Marine20 is improver than Marine13 during 55 to 10.5 kyrs BP, through usage BYCY
 Therefore, It is important to estimate $\Delta R$ for dating tools that estimate a radiocarbon age. In this work, I update values of $\Delta R$ according to the calibrated curve (Marine20 & Shcal20). Also, I focus on the $\Delta R$ relationship with space-time variables (latitude, longitude, calibrated age, and uncertainty age), and whether the hypotheses that explain previous works, still would validate with Marine20.
 
 ## Materials and methods
-This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs Marine-terrestrial samples of different organic materials (wood, shell and others organic remains) obtained in the South-Eastern Pacific Ocean (SEPO). This data-set include conventional age estimated of $^{14}C$, $^{210}Pb$ and sampled date.Bellow, I attached the input data set.
+This work estimates the $\Delta R$ off Peru & Chile (0 to 50 °S) during the last 12 Kyr BP. Therefore, I compiled several previous estimations. It was 185 pairs Marine-terrestrial samples of different organic materials (wood, shell and others organic remains) obtained in the South-Eastern Pacific Ocean (SEPO). This data-set include conventional age estimated of $^{14}C$, $^{210}Pb$ and collected date. For all conventional ages were used its uncertainties excluding collected age that only assumed 0.25 years how its uncertainties.Bellow, I attached the input data set.
 
 ![alt text](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/r.input%20data1.png?raw=true)
 
@@ -95,7 +95,7 @@ Therefore, I use GAM to find out about the spatial & temporal effect on MRA off 
 Then, I plotted $\Delta R$ GAM, regarding calibrated age and latitude according to GAM [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this picture, I can see a sharp latitudinal pattern which could mean gradient zone: 17 to 27°S. My second assumption is frontier is 22°S which mark off two zones: first (0 to 22°S) and second (22 to 50°S). the limit between the two zones could be due to oceanography and/or atmosphere change during the last 12 Kyr BP.
 
 ### $\Delta R$ estimated in boxes under Marine20
-At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, Ortlieb et al. 2011). The Boxes were built amusing how $\Delta R$ is constant within boxes and its frontiers are calculate one sigma add 5% more of estimated average $\Delta R$.
+At the state above the latitudinal pattern of $\Delta R$ split off in two zones is reliably acceptable. Accordingly, I can estimate $\Delta R$ by latitude and periods of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20)(Carré etl al, 2016, Ortlieb et al. 2011). The Boxes were built assuming how $\Delta R$ is constant within boxes and its frontiers are calculate one sigma add 5% more of estimated average $\Delta R$.
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:------------------------------------------------------:|
