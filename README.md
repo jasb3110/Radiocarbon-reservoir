@@ -121,7 +121,7 @@ Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(
 Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP could be explained which sediments weren´t recorded in marine sediment for biogeochemistry process for instance: poor preservation of organic matter, low sedimentation rate and high coastal erosion due marine transgression.
 
 ## Conclusions 
-The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using error weight means and bootstrapping than previous estimations.
+The spatial variability of $\Delta R$ could be modulated by three aspects: 1) Oceanographic changes in associated origin CCW and its circulation, 2) Enhanced upwelling regionally off SEPO, and 3) Climatic changes inferred river discharge by precipitation during Holocene in sourth limit of Humboldt system. Furthermore, a relevant aspect was decreased uncertainty of $\Delta R$ for using EWM and bootstrapping than previous estimations.
 
 Future research should include more variables (e.g marine $CO_2$ off Peru to Chile) and calibrated age estimation by others proxies or methods (e.g Uranium to Thorium rate) to improve the description of the pattern and will be able to build the best ocean-atmosphere model.
 
