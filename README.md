@@ -118,7 +118,7 @@ During eh, The latitudinal gradient of $\Delta R$ between boxes 0-22°S and 22-5
 
 Another hand, The latitudinal gradient of $\Delta R$ estimated with GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S probably interpreted zone of Permanent upwelling moved northward during On Holocene. Also, it can explain how to increase the input of fresh water which might contribute to a reduction of the reservoir effect (Merino et al. 2019).
 
-Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP could be explained researcher didn´t find sediments yet, belonging this period-time or 
+Additionally, $\Delta R$ in boxes in this work show that absence of sample of \~6 kyrs BP [(fig. 5)](#discussion), could be explained researcher didn´t find sediments yet, belonging this period-time or 
 sediments weren´t recorded in marine sediment due biogeochemistry process for instance: poor preservation of organic matter, low sedimentation rate and high coastal erosion due marine transgression.
 
 ## Conclusions 
