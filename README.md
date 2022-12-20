@@ -60,7 +60,7 @@ I used a Bchron package (Hastell & Parnell, 2008) in R programming to estimate t
 
 I sorted of data (without repeated data) for period time: Early Holocene (EH) was 11.5 to 7 Kyr BP, Mid Holocene (MH) was 7 to 4 Kyr BP, Late Holocene (LH) was 4 to 0.2 Kyr BP, and Current warming period (CWP) is last 180 years; space variables: latitude and longitude; calibrated age: maximum probability age and Uncertainty of maximum probability age; $\Delta R$ : estimated value and its uncertainty.
 
-Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 96 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes like previous work (Ortlieb et al. 2011; Carré et al. 2016), using EWM for decreased error propagation.
+Next, I did do a Factorial multivariate analysis, using the Factominer package, and a Generalized analysis model(GAM), using mgcv package, of 96 pairs of data. Finally, I recalculated $\Delta R$ according to latitude and calibrated age before to present (Cal yr BP) in boxes like previous work (Ortlieb et al. 2011; Carré et al. 2016), using EWM once again for decreased error propagation.
 
 ## Principal outcomes
 In this part, I would show highlight the results of this work.Multivariate analysis was based on seven selected variables over the length of whole data set (n=96). PCA results indicate that most variance of the data set ∼52% was encompassed by the first and second principal components [(fig. 1)](#principal-component-analysis-(pca)).
