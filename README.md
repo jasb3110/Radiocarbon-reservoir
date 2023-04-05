@@ -64,7 +64,7 @@ Next, I performed a factorial multivariate analysis using the FactoMineR package
 
 In this part, I will highlight the results of this work. The multivariate analysis was based on seven selected variables over the entire dataset (n=96).Factorial principal component analysis results indicate that most of the variance of the dataset, approximately 52%, was encompassed by the first and second principal components. [(fig. 1)](#principal-component-analysis-(PCA)).
 
-### Factorial Principal components (FPCA)
+### Factorial Principal components (FPCs)
 
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
 |:------------------------------------------------------:|
@@ -117,7 +117,7 @@ The difference between $\Delta R_{20}$ and $\Delta R_{13}$ can be partially expl
 
 In this study [(fig. 4)](#local-mra-estimated-under-marine20), the latitudinal gradient of $\Delta R_{20}$ between boxes at 0-22°S and 22-50°S (~1 Kyr) during the Early Holocene was observed. This gradient was likely modulated by the minor contribution of Subantarctic Mode Water (SAMW) to the Equatorial Undercurrent (EUC) and the Equatorial Subsurface Water (ESSW), which has low $\Delta^{14}C$, in forming the Central Equatorial Water (CCW) and/or increasing upwelling during the Early Holocene (Carré et al. 2016; Hua et al. 2016; Ortlieb et al. 2011; Fontugne et al. 2004).
 
-Furthermore, the latitudinal gradient of $\Delta R_{20}$ estimated with the GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S likely represents a zone of permanent upwelling that moved northward during the Holocene. This can also explain how the increase in freshwater input might have contributed to a reduction in the reservoir effect (Merino et al. 2019).
+Furthermore, the latitudinal gradient of $\Delta R_{20}$ estimated with the GAM model [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile) showed that the transitional zone between 17 to 27°S likely represents a zone of permanent upwelling that moved northward or contraction during the Holocene. This can also explain how the increase in freshwater input might have contributed to a reduction in the reservoir effect (Merino et al. 2019).
 
 Finally, the $\Delta R$ boxes in this study show that there is an absence of samples from ~6 kyrs BP [(fig. 5)](#discussion). This could be due to researchers not having found sediment belonging to this period yet, or because sediments were not recorded in marine sediment due to biogeochemical processes, such as poor preservation of organic matter, low sedimentation rates, and high coastal erosion due to marine transgression.
 
