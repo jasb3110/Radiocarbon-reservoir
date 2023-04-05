@@ -62,9 +62,9 @@ Next, I performed a factorial multivariate analysis using the FactoMineR package
 
 ## Principal outcomes
 
-In this part, I will highlight the results of this work. The multivariate analysis was based on seven selected variables over the entire dataset (n=96). Factorial Principal component analysis (FPCA) results indicate that most of the variance of the dataset, approximately 52%, was encompassed by the first and second principal components. [(fig. 1)](#principal-component-analysis-(PCA)).
+In this part, I will highlight the results of this work. The multivariate analysis was based on seven selected variables over the entire dataset (n=96).Factorial principal component analysis results indicate that most of the variance of the dataset, approximately 52%, was encompassed by the first and second principal components. [(fig. 1)](#principal-component-analysis-(PCA)).
 
-### Factorial Principal components
+### Factorial Principal components (FPCA)
 
 |[![Figure 1.](AMV.biplot.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/AMV.biplot.png?raw=true)| 
 |:------------------------------------------------------:|
