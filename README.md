@@ -18,7 +18,7 @@ output:
 -   [R code](#r-code)
 
 ## Abstract
-Radiocarbon (${14}$C) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediment cores. However, dating marine sediment records has an important particularity: contemporaneous terrestrial and marine organisms have different $^{14}$C ages because the ocean is a source of $^{14}$C. Therefore, marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called the marine reservoir effect (MRE) and it varies in space and time as a function of changes in water mass origin and circulation.
+Radiocarbon ($^{14}$C) is a cosmogenic radionuclide produced in the upper atmosphere that is frequently used in paleoceanography to date sediment cores. However, dating marine sediment records has an important particularity: contemporaneous terrestrial and marine organisms have different $^{14}$C ages because the ocean is a source of $^{14}$C. Therefore, marine organisms appear to be older than contemporaneous terrestrial organisms. This effect is called the marine reservoir effect (MRE) and it varies in space and time as a function of changes in water mass origin and circulation.
 
 In the particular case of the coasts of Peru and Chile, MRE could be due to the intensity of upwelling and the origin of the upwelled waters. Therefore, it needs to be considered when dating marine sediment cores from these regions. Recently, an internationally agreed-upon marine radiocarbon age calibration curve (Marine20) was released, which provides a global average marine record of radiocarbon from 0 to 55 cal kyr BP. This curve serves as a baseline for regional oceanic variations.
 
