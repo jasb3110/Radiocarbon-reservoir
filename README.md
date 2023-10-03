@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
@@ -70,7 +70,7 @@ In this part, I will highlight the results of this work. The multivariate analys
 |:------------------------------------------------------:|
 |*Figure 1. Biplot of Principal component of data (n=96)*|                                    
 
-PC1 (∼29%) is interpreted as a signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$, and calibrated age. PC2 (∼23%) is interpreted as a signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude, and uncertainty of $\Delta R$ [(fig. 1)](#principal-component-analysis-(PCA)). Hence, it can be said that the seven variables represent the variability of the data. My first assumption is that the difference in species or organic remains is not significant for estimating $\Delta R$.
+PC1 (∼29%) is interpreted as a signal of latitudinal position. PC1 has the highest loading for latitude, uncertainty of $\Delta R$, and calibrated age. PC2 (∼23%) is interpreted as a signal of longitudinal position. PC2 has the highest loading for calibrated age, longitude, and uncertainty of $\Delta R$ [(fig. 1)](#factorial-principal-components (FPCs)). Hence, it can be said that the seven variables represent the variability of the data. My first assumption is that the difference in species or organic remains is not significant for estimating $\Delta R$.
 
 
 ### Clusters of Local MRA for period time
