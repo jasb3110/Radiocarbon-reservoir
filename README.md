@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
@@ -96,7 +96,6 @@ Then, I plotted the GAM for $\Delta R$, with calibrated age and latitude as inpu
 
 ### $\Delta R$ estimated in boxes under Marine20
 At the stage above, the latitudinal pattern of $\Delta R$ splitting into two zones is considered reliable. Therefore, I can estimate $\Delta R$ by latitude and period of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20) (Carré et al., 2016; Ortlieb et al., 2011). The boxes were constructed assuming that $\Delta R$ (y-axis) is constant within the boxes due to relatively stable climate (Heaton et al.,2022), and their boundaries are calculated as one sigma. The boundaries of calibrated age (x-axis) are calculated by adding/subtracting 5% of the maximum/minimum ages in each box to the nearest value.
-
 
 |[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/db842ff0620d55ea5ca5ceec0d96a369406b6e3c/MRA.marine20.png?raw=true)|
 |:------------------------------------------------------:|
