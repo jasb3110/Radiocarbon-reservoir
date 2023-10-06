@@ -1,5 +1,7 @@
 ---
 output:
+  html_document:
+    df_print: paged
   word_document: default
 ---
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
