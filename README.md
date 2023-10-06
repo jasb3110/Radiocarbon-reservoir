@@ -1,4 +1,4 @@
-# New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
+# New estimations of \u0394 R for the South-eastern Pacific obtained from Marine20
 
 ## Contents
 
