@@ -1,4 +1,4 @@
-# New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
+# New estimations of $\u0394 R$ for the South-eastern Pacific obtained from Marine20
 
 ## Contents
 
@@ -83,7 +83,7 @@ Therefore, I used GAM to investigate the spatial and temporal effects on MRA off
 
 |[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5c906b5d15b85dd72416e0abd3e72d53126c9b7b/GAM%20radiocarbon%20heat%20map.png?raw=true)|
 |:------------------------------------------------------:|
-|*Figure 3. Latitudinal distribution* $\Delta R$ *, inferred for GAM, off Peru to Chile the last 12 Kyr BP*|    
+|*Figure 3. Latitudinal distribution* $\Delta R$ *, inferred for GAM, off Peru to Chile the last 12 Kyr BP*|
 
 Then, I plotted the GAM for $\Delta R$, with calibrated age and latitude as input variables [(fig. 3)](#latitudinal-distGribution-of-mra-off-peru-to-chile). In this figure, a sharp latitudinal pattern is visible, which suggests the presence of a gradient zone between 17 and 27°S. Based on this observation, I made a second assumption that the boundary between two zones is located at 22°S. These two zones are referred to as the first (0 to 22°S) and second (22 to 50°S) zones. The boundary between these zones could be attributed to changes in oceanography and/or atmosphere during the last 12 Kyr BP. However, the GAM model does not describe the $\Delta R$ values for the last century. Therefore, this study focuses on the millennial signal of $\Delta R$ during the studied period.
 
