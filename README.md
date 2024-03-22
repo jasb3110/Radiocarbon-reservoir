@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  word_document: default
----
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
 
 ## Contents
