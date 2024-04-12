@@ -1,8 +1,8 @@
 ---
 output:
+  word_document: default
   pdf_document: default
   html_document: default
-  word_document: default
 ---
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
 
@@ -105,7 +105,7 @@ In this picture, I show the estimation of $\Delta R$ in boxes for two zones. The
 We also estimated $\Delta R$ for the last 180 years in the 0-22°S and 22-50°S zones, which were found to be 140±5 and 162±6 years, respectively. However, we did not plot the boxes for CWP to avoid overlapping in the figure. These $\Delta R$ values are similar to those reported in previous works for CWP (Ortlieb et al. 2011 & Carré et al. 2016).
 
 ## Discussion
-|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/34253d1db4a895dce168350afe6cddac1595c57d/animation.gif?raw=true)|                                  
+|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/34253d1db4a895dce168350afe6cddac1595c57d/animation.gif?raw=true)|
 |:------------------------------------------------------:|
 |*Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated* $\Delta R$ *by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box*|
 
