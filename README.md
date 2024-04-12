@@ -1,10 +1,6 @@
 ---
-output:
-  pdf_document: default
-  word_document: default
-  html_document: default
   output:
-  bookdown::pdf_book:base_format: rticles::plos_article
+  bookdown::pdf_book:base_format:rticles::plos_article
 ---
 # New estimations of $\Delta R$ for the South-eastern Pacific obtained from Marine20
 
