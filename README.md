@@ -81,7 +81,7 @@ Some previous studies have reported latitudinal differences in $\Delta R$ values
 
 Therefore, I used GAM to investigate the spatial and temporal effects on MRA off Peru and Chile. I constructed a simple GAM to examine the effects of individual variables and their interactions (Wood, 2017). This model employs a cubic spline smooth for each variable and an adjusted Tweedie distribution with a logarithmic link function. Based on the GAM output, the adjusted $R^{2}$ is 0.83, and the explained deviance is approximately \~85%, indicating that this model significantly represents the variability of MRA.
 
-|[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/34253d1db4a895dce168350afe6cddac1595c57d/GAM%20radiocarbon%20heat%20map.png?raw=true)|
+|[![Figure 3.](GAM%20radiocarbon%20heat%20map.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5e1379c504d9fc639a5a38bd36bc810e09658028/GAM%20radiocarbon%20heat%20map.png?raw=true)|
 |:------------------------------------------------------:|
 |*Figure 3. Latitudinal distribution* $\Delta R$ *, inferred for GAM, off Peru to Chile the last 12 Kyr BP*|
 
@@ -90,7 +90,7 @@ Then, I plotted the GAM for $\Delta R$, with calibrated age and latitude as inpu
 ### $\Delta R$ estimated in boxes under Marine20
 At the stage above, the latitudinal pattern of $\Delta R$ splitting into two zones is considered reliable. Therefore, I can estimate $\Delta R$ by latitude and period of time, similar to previous works [(fig. 4)](#local-mra-estimated-under-marine20) (Carré et al., 2016; Ortlieb et al., 2011). The boxes were constructed assuming that $\Delta R$ (y-axis) is constant within the boxes due to relatively stable climate (Heaton et al.,2022), and their boundaries are calculated as one sigma. The boundaries of calibrated age (x-axis) are calculated by adding/subtracting 5% of the maximum/minimum ages in each box to the nearest value.
 
-|[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/34253d1db4a895dce168350afe6cddac1595c57d/MRA.marine20.png?raw=true)|
+|[![Figure 4.](MRA.marine20.png)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5e1379c504d9fc639a5a38bd36bc810e09658028/MRA.marine20.png?raw=true)|
 |:------------------------------------------------------:|
 |*Figure 4. Diagram of* $\Delta R$ *off Peru & Chile in boxes. Orange boxes belonged from 0 to 22°S and purple boxes belonged from 22 to 50°S.The thick black lines is mean value of MRA each box.*|
 
@@ -99,7 +99,7 @@ In this picture, I show the estimation of $\Delta R$ in boxes for two zones. The
 We also estimated $\Delta R$ for the last 180 years in the 0-22°S and 22-50°S zones, which were found to be 140±5 and 162±6 years, respectively. However, we did not plot the boxes for CWP to avoid overlapping in the figure. These $\Delta R$ values are similar to those reported in previous works for CWP (Ortlieb et al. 2011 & Carré et al. 2016).
 
 ## Discussion
-|[![Figure 5.](animation.gif?)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/34253d1db4a895dce168350afe6cddac1595c57d/animation.gif?raw=true)|
+|[![Figure 5.](animation.gif)](https://github.com/jasb3110/Radiocarbon-reservoir/blob/5e1379c504d9fc639a5a38bd36bc810e09658028/animation.gif?raw=true)|
 |:------------------------------------------------------:|
 |*Figure 5.Animation of* $\Delta R$ *off Peru & Chile in boxes and MRA in the background, estimated for each calibrated curve how to difference between Shcal13 & Marine13 (grey) and Shcal20 & Marine20(red). Estimated* $\Delta R$ *by Ortlieb et al. 2011(grey); by Carré et al. 2016(green and blue) and by this work(orange and purple). The thick black lines is the mean value of MRA each box*|
 
